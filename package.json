@@ -1,0 +1,49 @@
+{
+  "name": "mosaic-react",
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@coreui/icons": "^3.0.1",
+    "@coreui/icons-react": "^2.3.0",
+    "@coreui/react": "^5.9.0",
+    "@heroicons/react": "^2.2.0",
+    "@radix-ui/react-popover": "^1.1.2",
+    "@tailwindcss/forms": "^0.5.7",
+    "axios": "^1.13.2",
+    "chart.js": "^4.4.1",
+    "chartjs-adapter-moment": "^1.0.1",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "date-fns": "^4.1.0",
+    "framer-motion": "^12.23.12",
+    "jspdf": "^3.0.3",
+    "jspdf-autotable": "^5.0.2",
+    "lucide-react": "^0.544.0",
+    "moment": "^2.29.4",
+    "react": "^19.0.0",
+    "react-day-picker": "^9.4.1",
+    "react-dom": "^19.0.0",
+    "react-hot-toast": "^2.6.0",
+    "react-icons": "^5.5.0",
+    "react-router-dom": "^7.0.2",
+    "react-toastify": "^11.0.5",
+    "react-transition-group": "^4.4.5",
+    "sweetalert2": "^11.26.3",
+    "tailwind-merge": "^3.3.1",
+    "tailwind-variants": "^3.1.1",
+    "uuid": "^13.0.0",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.0.0",
+    "@vitejs/plugin-react": "^4.2.1",
+    "postcss": "^8.4.32",
+    "tailwindcss": "^4.1.14",
+    "vite": "^6.0.3"
+  }
+}

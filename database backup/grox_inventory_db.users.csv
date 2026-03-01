@@ -1,0 +1,3 @@
+_id,username,email,password,role,status,forcePasswordChange,createdAt,updatedAt,__v
+691b3acaf0824ede03cc8463,chuks,chuks,$2b$10$Tce9T8o8/MAmKnOnWkYpv.mKDqfGBESGAGd1yfgyPt9Xx.UUoJkLy,Admin,Active,false,2025-11-17T15:10:02.397Z,2026-02-03T10:06:50.479Z,0
+6981b0d523538f50038888b2,manager,manager,$2b$10$HeYFPcAjmnc7Uv/7buLYlOicvy5sGxbyslJjymGhrstL9Ndn31sVu,Manager,Active,false,2026-02-03T08:24:53.913Z,2026-02-03T10:08:28.860Z,0
