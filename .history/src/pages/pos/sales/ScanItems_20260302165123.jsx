@@ -361,7 +361,7 @@ function ScanItems() {
     };
 
     try {
-      const res = await axios.post(`${API_BASE}/api/sales`, payload);
+      const res = await axios.post(`${API_BASE}/api/sales", payload);
 
       setLastInvoice(res.data.invoiceNumber);
       toast.success(`✅ Sale recorded! Invoice: ${res.data.invoiceNumber}`);
