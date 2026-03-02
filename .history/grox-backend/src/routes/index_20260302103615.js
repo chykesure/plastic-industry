@@ -1,5 +1,4 @@
 import express from "express";
-import User from "../models/User.js";
 const router = express.Router();
 
 import supplierRoutes from "./supplierRoutes.js";
@@ -35,7 +34,7 @@ router.get('/init-db', async (req, res) => {
     const admin = new User({
       username: "admin",
       email: "admin@grox.com",
-      password: "0000",
+      password: "InitialPassword123!",
       role: "Admin",
       status: "Active"
     });
@@ -51,8 +50,6 @@ router.get('/init-db', async (req, res) => {
     res.status(500).json({ error: err.message });
   }
 });
-
-
 router.get('/force-create', async (req, res) => {
   try {
     // Use a minimal schema/model (creates collection "testdocs")

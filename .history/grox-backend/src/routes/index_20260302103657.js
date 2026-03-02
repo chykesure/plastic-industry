@@ -1,6 +1,7 @@
 import express from "express";
-import User from "../models/User.js";
 const router = express.Router();
+
+import User from "./models/User.js"; // Adjust this path to your User.js file
 
 import supplierRoutes from "./supplierRoutes.js";
 import purchaseRoutes from "./purchaseRoutes.js";
