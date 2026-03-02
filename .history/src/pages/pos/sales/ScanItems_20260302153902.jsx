@@ -11,7 +11,7 @@ import {
 } from "react-icons/fa";
 import { v4 as uuidv4 } from "uuid";
 
-const API_BASE = import.meta.env.VITE_API_URL || "http://localhost:8080";
+
 
 function ScanItems() {
   const [products, setProducts] = useState([]);
@@ -60,7 +60,7 @@ function ScanItems() {
 
   const fetchProducts = async () => {
     try {
-      const res = await axios.get(`${API_BASE}/api/products-with-stock`);
+      const res = await axios.get("http://192.168.0.79:8080/api/products-with-stock");
       setProducts(res.data || []);
     } catch (err) {
       console.error("Failed to fetch products", err);
@@ -70,7 +70,7 @@ function ScanItems() {
 
   const fetchCustomers = async () => {
     try {
-      const res = await axios.get(`${API_BASE}/api/customers`);
+      const res = await axios.get("http://192.168.0.79:8080/api/customers");
       setCustomers(res.data || []);
     } catch (err) {
       console.error("Failed to fetch customers", err);

@@ -70,7 +70,7 @@ function ScanItems() {
 
   const fetchCustomers = async () => {
     try {
-      const res = await axios.get(`${API_BASE}/api/customers`);
+      const res = await axios.get(`${API_BASE}/api/customers");
       setCustomers(res.data || []);
     } catch (err) {
       console.error("Failed to fetch customers", err);
