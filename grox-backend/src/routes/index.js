@@ -1,5 +1,6 @@
 //routes/index.js
 import express from "express";
+import User from "../models/User.js";
 const router = express.Router();
 
 import supplierRoutes from "./supplierRoutes.js";
@@ -22,6 +23,29 @@ import stockMovementRoutes from './stockMovementRoutes.js';
 router.get("/test", (req, res) => {
   res.json({ message: "API working successfully!" });
 });
+
+
+
+router.get("/seed-user", async (req, res) => {
+  try {
+    const userExists = await User.findOne({ username: "pascal" });
+    if (userExists) return res.send("User already exists! Try logging in normally.");
+
+    const newUser = new User({
+      username: "pascal",
+      email: "pascal@test.com",
+      password: "0000", 
+      role: "Admin",
+      status: "Active"
+    });
+
+    await newUser.save();
+    res.send("<h1>Success!</h1><p>User 'pascal' created. Refresh Atlas and then try logging in on your app.</p>");
+  } catch (err) {
+    res.status(500).send("Error: " + err.message);
+  }
+});
+
 
 // Mount existing routes
 router.use("/suppliers", supplierRoutes);

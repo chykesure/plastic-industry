@@ -15,9 +15,7 @@ connectDB();
 app.use(cors({
   origin: [
     "http://localhost:5173",                    // keep for local development
-    "https://komolafe-and-son.onrender.com",    // ← add this (your live frontend)
-    // Optional: add any preview/staging domains if you have them later
-    // "https://your-preview-branch--komolafe-and-son.onrender.com"
+    "https://komolafe-and-son.onrender.com",
   ],
   methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
   credentials: true,                            // important if using cookies / auth headers
