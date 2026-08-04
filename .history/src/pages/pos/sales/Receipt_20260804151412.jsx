@@ -508,10 +508,10 @@ function Receipt() {
   const paymentMethod = sale?.paymentMode || "Cash";
   const printDate = sale?.date
     ? new Date(sale.date).toLocaleDateString("en-GB", {
-      day: "2-digit",
-      month: "short",
-      year: "numeric",
-    })
+        day: "2-digit",
+        month: "short",
+        year: "numeric",
+      })
     : "—";
 
   return (
@@ -544,10 +544,11 @@ function Receipt() {
             <button
               onClick={handleSearch}
               disabled={isLoading}
-              className={`px-6 py-2.5 rounded-lg font-medium text-white flex items-center gap-2 transition-all ${isLoading
+              className={`px-6 py-2.5 rounded-lg font-medium text-white flex items-center gap-2 transition-all ${
+                isLoading
                   ? "bg-indigo-500/50 cursor-not-allowed"
                   : "bg-indigo-600 hover:bg-indigo-500 active:bg-indigo-700 shadow-md shadow-indigo-500/20"
-                }`}
+              }`}
             >
               {isLoading ? (
                 <>

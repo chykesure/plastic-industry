@@ -1,0 +1,6357 @@
+[{
+  "_id": {
+    "$oid": "6905f87d21f9c06ddec93438"
+  },
+  "items": [
+    {
+      "productId": {
+        "$oid": "69051ef6fea9f7bcd9e97fc6"
+      },
+      "quantity": 1,
+      "price": 1250,
+      "_id": {
+        "$oid": "6905f87d21f9c06ddec93439"
+      }
+    },
+    {
+      "productId": {
+        "$oid": "690511b627d1713276b40208"
+      },
+      "quantity": 1,
+      "price": 625,
+      "_id": {
+        "$oid": "6905f87d21f9c06ddec9343a"
+      }
+    },
+    {
+      "productId": {
+        "$oid": "690512a127d1713276b4020b"
+      },
+      "quantity": 1,
+      "price": 1015.63,
+      "_id": {
+        "$oid": "6905f87d21f9c06ddec9343b"
+      }
+    }
+  ],
+  "total": 2890.63,
+  "paymentMode": "Bank Transfer",
+  "date": {
+    "$date": "2025-11-01T12:09:33.795Z"
+  },
+  "createdAt": {
+    "$date": "2025-11-01T12:09:33.810Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-01T12:09:33.810Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "691c89331d79bd577efa4d72"
+  },
+  "invoiceNumber": "1",
+  "items": [
+    {
+      "productId": {
+        "$oid": "6910bf3c9fb90ac113d4ab79"
+      },
+      "quantity": 3,
+      "price": 450,
+      "subtotal": 1350,
+      "_id": {
+        "$oid": "691c89331d79bd577efa4d73"
+      }
+    },
+    {
+      "productId": {
+        "$oid": "691371220c97fa970b72a666"
+      },
+      "quantity": 5,
+      "price": 300,
+      "subtotal": 1500,
+      "_id": {
+        "$oid": "691c89331d79bd577efa4d74"
+      }
+    },
+    {
+      "productId": {
+        "$oid": "690f7919f8e44d16238dadaa"
+      },
+      "quantity": 3,
+      "price": 110,
+      "subtotal": 330,
+      "_id": {
+        "$oid": "691c89331d79bd577efa4d75"
+      }
+    },
+    {
+      "productId": {
+        "$oid": "6912088f4267a40c5af70436"
+      },
+      "quantity": 2,
+      "price": 1650,
+      "subtotal": 3300,
+      "_id": {
+        "$oid": "691c89331d79bd577efa4d76"
+      }
+    },
+    {
+      "productId": {
+        "$oid": "6906418521f9c06ddec9353d"
+      },
+      "quantity": 3,
+      "price": 1000.02,
+      "subtotal": 3000.06,
+      "_id": {
+        "$oid": "691c89331d79bd577efa4d77"
+      }
+    }
+  ],
+  "total": 9480.06,
+  "paymentMode": "Cash",
+  "date": {
+    "$date": "2025-11-18T14:56:51.210Z"
+  },
+  "status": "completed",
+  "createdAt": {
+    "$date": "2025-11-18T14:56:51.217Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-18T14:56:51.217Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "691c93961d79bd577efa4dae"
+  },
+  "invoiceNumber": "2",
+  "items": [
+    {
+      "productId": {
+        "$oid": "6911bf8e4267a40c5af70264"
+      },
+      "quantity": 2,
+      "price": 400,
+      "subtotal": 800,
+      "_id": {
+        "$oid": "691c93961d79bd577efa4daf"
+      }
+    },
+    {
+      "productId": {
+        "$oid": "6906418521f9c06ddec9353d"
+      },
+      "quantity": 1,
+      "price": 1000.02,
+      "subtotal": 1000.02,
+      "_id": {
+        "$oid": "691c93961d79bd577efa4db0"
+      }
+    }
+  ],
+  "total": 1800.02,
+  "paymentMode": "Cash",
+  "date": {
+    "$date": "2025-11-18T15:41:10.363Z"
+  },
+  "status": "completed",
+  "createdAt": {
+    "$date": "2025-11-18T15:41:10.364Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-18T15:41:10.364Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "691da4b7a52b0eb003f34b2b"
+  },
+  "invoiceNumber": "3",
+  "items": [
+    {
+      "productId": {
+        "$oid": "6906418521f9c06ddec9353d"
+      },
+      "quantity": 2,
+      "price": 1000.02,
+      "subtotal": 2000.04,
+      "_id": {
+        "$oid": "691da4b7a52b0eb003f34b2c"
+      }
+    }
+  ],
+  "total": 2000.04,
+  "paymentMode": "Bank Transfer",
+  "date": {
+    "$date": "2025-11-19T11:06:31.298Z"
+  },
+  "cashier": "mary",
+  "status": "completed",
+  "createdAt": {
+    "$date": "2025-11-19T11:06:31.303Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-19T11:06:31.303Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "691da6e0a52b0eb003f34b51"
+  },
+  "invoiceNumber": "4",
+  "items": [
+    {
+      "productId": {
+        "$oid": "691371220c97fa970b72a666"
+      },
+      "quantity": 6,
+      "price": 300,
+      "subtotal": 1800,
+      "_id": {
+        "$oid": "691da6e0a52b0eb003f34b52"
+      }
+    },
+    {
+      "productId": {
+        "$oid": "691497f9d1a458103ca6865e"
+      },
+      "quantity": 1,
+      "price": 1700,
+      "subtotal": 1700,
+      "_id": {
+        "$oid": "691da6e0a52b0eb003f34b53"
+      }
+    },
+    {
+      "productId": {
+        "$oid": "691491bdd1a458103ca6865b"
+      },
+      "quantity": 1,
+      "price": 400,
+      "subtotal": 400,
+      "_id": {
+        "$oid": "691da6e0a52b0eb003f34b54"
+      }
+    },
+    {
+      "productId": {
+        "$oid": "69147f6ad1a458103ca68601"
+      },
+      "quantity": 1,
+      "price": 1600,
+      "subtotal": 1600,
+      "_id": {
+        "$oid": "691da6e0a52b0eb003f34b55"
+      }
+    },
+    {
+      "productId": {
+        "$oid": "6914b4b2d1a458103ca686c7"
+      },
+      "quantity": 1,
+      "price": 500,
+      "subtotal": 500,
+      "_id": {
+        "$oid": "691da6e0a52b0eb003f34b56"
+      }
+    },
+    {
+      "productId": {
+        "$oid": "691490d7d1a458103ca68652"
+      },
+      "quantity": 1,
+      "price": 620,
+      "subtotal": 620,
+      "_id": {
+        "$oid": "691da6e0a52b0eb003f34b57"
+      }
+    }
+  ],
+  "total": 6620,
+  "paymentMode": "Cash",
+  "date": {
+    "$date": "2025-11-19T11:15:44.753Z"
+  },
+  "cashier": "mary",
+  "status": "completed",
+  "createdAt": {
+    "$date": "2025-11-19T11:15:44.762Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-19T11:15:44.762Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "691dbd9aa52b0eb003f34c5d"
+  },
+  "invoiceNumber": "5",
+  "items": [
+    {
+      "productId": {
+        "$oid": "690f6a4ef8e44d16238dad34"
+      },
+      "quantity": 1,
+      "price": 1200,
+      "subtotal": 1200,
+      "_id": {
+        "$oid": "691dbd9aa52b0eb003f34c5e"
+      }
+    },
+    {
+      "productId": {
+        "$oid": "6910d4f69fb90ac113d4abf6"
+      },
+      "quantity": 1,
+      "price": 600,
+      "subtotal": 600,
+      "_id": {
+        "$oid": "691dbd9aa52b0eb003f34c5f"
+      }
+    },
+    {
+      "productId": {
+        "$oid": "6916ec30cdf1715f12d18e00"
+      },
+      "quantity": 2,
+      "price": 1150,
+      "subtotal": 2300,
+      "_id": {
+        "$oid": "691dbd9aa52b0eb003f34c60"
+      }
+    }
+  ],
+  "total": 4100,
+  "paymentMode": "Cash",
+  "date": {
+    "$date": "2025-11-19T12:52:42.617Z"
+  },
+  "cashier": "mary",
+  "status": "completed",
+  "createdAt": {
+    "$date": "2025-11-19T12:52:42.620Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-19T12:52:42.620Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "691e13a854895495c2077a0d"
+  },
+  "invoiceNumber": "6",
+  "items": [
+    {
+      "productId": {
+        "$oid": "6910c6429fb90ac113d4ab9a"
+      },
+      "quantity": 1,
+      "price": 2000,
+      "subtotal": 2000,
+      "_id": {
+        "$oid": "691e13a854895495c2077a0e"
+      }
+    }
+  ],
+  "total": 2000,
+  "paymentMode": "Cash",
+  "date": {
+    "$date": "2025-11-19T18:59:52.603Z"
+  },
+  "cashier": "mary",
+  "status": "completed",
+  "createdAt": {
+    "$date": "2025-11-19T18:59:52.608Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-19T18:59:52.608Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "691e18f954895495c2077b75"
+  },
+  "invoiceNumber": "7",
+  "items": [
+    {
+      "productId": {
+        "$oid": "6911ea454267a40c5af703cc"
+      },
+      "quantity": 2,
+      "price": 1200,
+      "subtotal": 2400,
+      "_id": {
+        "$oid": "691e18f954895495c2077b76"
+      }
+    },
+    {
+      "productId": {
+        "$oid": "6910c5179fb90ac113d4ab94"
+      },
+      "quantity": 1,
+      "price": 800,
+      "subtotal": 800,
+      "_id": {
+        "$oid": "691e18f954895495c2077b77"
+      }
+    },
+    {
+      "productId": {
+        "$oid": "690f66bff8e44d16238dad2b"
+      },
+      "quantity": 1,
+      "price": 1050,
+      "subtotal": 1050,
+      "_id": {
+        "$oid": "691e18f954895495c2077b78"
+      }
+    }
+  ],
+  "total": 4250,
+  "paymentMode": "Bank Transfer",
+  "date": {
+    "$date": "2025-11-19T19:22:33.982Z"
+  },
+  "cashier": "mary",
+  "status": "completed",
+  "createdAt": {
+    "$date": "2025-11-19T19:22:33.986Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-19T19:22:33.986Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "691ed0ae0abdbb097d4754b2"
+  },
+  "invoiceNumber": "8",
+  "items": [
+    {
+      "productId": {
+        "$oid": "6910912ff8e44d16238dae0b"
+      },
+      "quantity": 1,
+      "price": 2000,
+      "subtotal": 2000,
+      "_id": {
+        "$oid": "691ed0ae0abdbb097d4754b3"
+      }
+    },
+    {
+      "productId": {
+        "$oid": "69108ff6f8e44d16238dae05"
+      },
+      "quantity": 1,
+      "price": 1100,
+      "subtotal": 1100,
+      "_id": {
+        "$oid": "691ed0ae0abdbb097d4754b4"
+      }
+    }
+  ],
+  "total": 3100,
+  "paymentMode": "Cash",
+  "date": {
+    "$date": "2025-11-20T08:26:22.286Z"
+  },
+  "cashier": "sdada",
+  "status": "completed",
+  "createdAt": {
+    "$date": "2025-11-20T08:26:22.293Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-20T08:26:22.293Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "691f08f60abdbb097d47558e"
+  },
+  "invoiceNumber": "9",
+  "items": [
+    {
+      "productId": {
+        "$oid": "6907ba714bf6762018b1aa93"
+      },
+      "quantity": 1,
+      "price": 3800,
+      "subtotal": 3800,
+      "_id": {
+        "$oid": "691f08f60abdbb097d47558f"
+      }
+    }
+  ],
+  "total": 3800,
+  "paymentMode": "Cash",
+  "date": {
+    "$date": "2025-11-20T12:26:30.452Z"
+  },
+  "cashier": "sdada",
+  "status": "completed",
+  "createdAt": {
+    "$date": "2025-11-20T12:26:30.457Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-20T12:26:30.457Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "691f47620abdbb097d475754"
+  },
+  "invoiceNumber": "10",
+  "items": [
+    {
+      "productId": {
+        "$oid": "6910c06b9fb90ac113d4ab7c"
+      },
+      "quantity": 1,
+      "price": 1900,
+      "subtotal": 1900,
+      "_id": {
+        "$oid": "691f47620abdbb097d475755"
+      }
+    },
+    {
+      "productId": {
+        "$oid": "691c4bde1d79bd577efa4bbe"
+      },
+      "quantity": 2,
+      "price": 1500,
+      "subtotal": 3000,
+      "_id": {
+        "$oid": "691f47620abdbb097d475756"
+      }
+    },
+    {
+      "productId": {
+        "$oid": "69108ff6f8e44d16238dae05"
+      },
+      "quantity": 2,
+      "price": 1100,
+      "subtotal": 2200,
+      "_id": {
+        "$oid": "691f47620abdbb097d475757"
+      }
+    }
+  ],
+  "total": 7100,
+  "paymentMode": "Cash",
+  "date": {
+    "$date": "2025-11-20T16:52:50.782Z"
+  },
+  "cashier": "sdada",
+  "status": "completed",
+  "createdAt": {
+    "$date": "2025-11-20T16:52:50.786Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-20T16:52:50.786Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "691f54d50abdbb097d475785"
+  },
+  "invoiceNumber": "11",
+  "items": [
+    {
+      "productId": {
+        "$oid": "691edd6c0abdbb097d4754e6"
+      },
+      "quantity": 1,
+      "price": 6500,
+      "subtotal": 6500,
+      "_id": {
+        "$oid": "691f54d50abdbb097d475786"
+      }
+    },
+    {
+      "productId": {
+        "$oid": "691c521b1d79bd577efa4c0c"
+      },
+      "quantity": 1,
+      "price": 1000,
+      "subtotal": 1000,
+      "_id": {
+        "$oid": "691f54d50abdbb097d475787"
+      }
+    },
+    {
+      "productId": {
+        "$oid": "691c43831d79bd577efa4b68"
+      },
+      "quantity": 1,
+      "price": 2000,
+      "subtotal": 2000,
+      "_id": {
+        "$oid": "691f54d50abdbb097d475788"
+      }
+    },
+    {
+      "productId": {
+        "$oid": "691b34f061e40083d084ff6b"
+      },
+      "quantity": 1,
+      "price": 3000,
+      "subtotal": 3000,
+      "_id": {
+        "$oid": "691f54d50abdbb097d475789"
+      }
+    }
+  ],
+  "total": 12500,
+  "paymentMode": "Cash",
+  "date": {
+    "$date": "2025-11-20T17:50:13.964Z"
+  },
+  "cashier": "sdada",
+  "status": "completed",
+  "createdAt": {
+    "$date": "2025-11-20T17:50:13.968Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-20T17:50:13.968Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6920a591c4488fe7381c0f3d"
+  },
+  "invoiceNumber": "12",
+  "items": [
+    {
+      "productId": {
+        "$oid": "690f7086f8e44d16238dad4c"
+      },
+      "quantity": 1,
+      "price": 1450,
+      "subtotal": 1450,
+      "_id": {
+        "$oid": "6920a591c4488fe7381c0f3e"
+      }
+    },
+    {
+      "productId": {
+        "$oid": "6906418521f9c06ddec9353d"
+      },
+      "quantity": 1,
+      "price": 1000.02,
+      "subtotal": 1000.02,
+      "_id": {
+        "$oid": "6920a591c4488fe7381c0f3f"
+      }
+    }
+  ],
+  "total": 2450.02,
+  "paymentMode": "Cash",
+  "date": {
+    "$date": "2025-11-21T17:46:57.796Z"
+  },
+  "cashier": "sdada",
+  "status": "completed",
+  "createdAt": {
+    "$date": "2025-11-21T17:46:57.805Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-21T17:46:57.805Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6921c2107a50622fbca1a7a1"
+  },
+  "invoiceNumber": "13",
+  "items": [
+    {
+      "productId": {
+        "$oid": "6914b915d1a458103ca686e6"
+      },
+      "quantity": 1,
+      "price": 100,
+      "subtotal": 100,
+      "_id": {
+        "$oid": "6921c2107a50622fbca1a7a2"
+      }
+    },
+    {
+      "productId": {
+        "$oid": "691f06420abdbb097d475586"
+      },
+      "quantity": 1,
+      "price": 3800,
+      "subtotal": 3800,
+      "_id": {
+        "$oid": "6921c2107a50622fbca1a7a3"
+      }
+    },
+    {
+      "productId": {
+        "$oid": "6910dbba9fb90ac113d4ac25"
+      },
+      "quantity": 1,
+      "price": 1200,
+      "subtotal": 1200,
+      "_id": {
+        "$oid": "6921c2107a50622fbca1a7a4"
+      }
+    }
+  ],
+  "total": 5100,
+  "paymentMode": "Cash",
+  "date": {
+    "$date": "2025-11-22T14:00:48.988Z"
+  },
+  "cashier": "sdada",
+  "status": "completed",
+  "createdAt": {
+    "$date": "2025-11-22T14:00:48.997Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-22T14:00:48.997Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6921c51f7a50622fbca1a7c4"
+  },
+  "invoiceNumber": "14",
+  "items": [
+    {
+      "productId": {
+        "$oid": "6910d6d79fb90ac113d4ac10"
+      },
+      "quantity": 1,
+      "price": 1800,
+      "subtotal": 1800,
+      "_id": {
+        "$oid": "6921c51f7a50622fbca1a7c5"
+      }
+    },
+    {
+      "productId": {
+        "$oid": "690f6a4ef8e44d16238dad34"
+      },
+      "quantity": 1,
+      "price": 1200,
+      "subtotal": 1200,
+      "_id": {
+        "$oid": "6921c51f7a50622fbca1a7c6"
+      }
+    }
+  ],
+  "total": 3000,
+  "paymentMode": "Cash",
+  "date": {
+    "$date": "2025-11-22T14:13:51.270Z"
+  },
+  "cashier": "sdada",
+  "status": "completed",
+  "createdAt": {
+    "$date": "2025-11-22T14:13:51.271Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-22T14:13:51.271Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6921d9917a50622fbca1a7dd"
+  },
+  "invoiceNumber": "15",
+  "items": [
+    {
+      "productId": {
+        "$oid": "6910bf3c9fb90ac113d4ab79"
+      },
+      "quantity": 2,
+      "price": 450,
+      "subtotal": 900,
+      "_id": {
+        "$oid": "6921d9917a50622fbca1a7de"
+      }
+    }
+  ],
+  "total": 900,
+  "paymentMode": "Cash",
+  "date": {
+    "$date": "2025-11-22T15:41:05.877Z"
+  },
+  "cashier": "sdada",
+  "status": "completed",
+  "createdAt": {
+    "$date": "2025-11-22T15:41:05.879Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-22T15:41:05.879Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6921dcf77a50622fbca1a7f0"
+  },
+  "invoiceNumber": "16",
+  "items": [
+    {
+      "productId": {
+        "$oid": "69133fc20c97fa970b72a542"
+      },
+      "quantity": 1,
+      "price": 2400,
+      "subtotal": 2400,
+      "_id": {
+        "$oid": "6921dcf77a50622fbca1a7f1"
+      }
+    },
+    {
+      "productId": {
+        "$oid": "6910c5179fb90ac113d4ab94"
+      },
+      "quantity": 1,
+      "price": 800,
+      "subtotal": 800,
+      "_id": {
+        "$oid": "6921dcf77a50622fbca1a7f2"
+      }
+    },
+    {
+      "productId": {
+        "$oid": "6910da509fb90ac113d4ac1c"
+      },
+      "quantity": 1,
+      "price": 1000,
+      "subtotal": 1000,
+      "_id": {
+        "$oid": "6921dcf77a50622fbca1a7f3"
+      }
+    },
+    {
+      "productId": {
+        "$oid": "69216e807a50622fbca1a668"
+      },
+      "quantity": 1,
+      "price": 80,
+      "subtotal": 80,
+      "_id": {
+        "$oid": "6921dcf77a50622fbca1a7f4"
+      }
+    }
+  ],
+  "total": 4280,
+  "paymentMode": "Cash",
+  "date": {
+    "$date": "2025-11-22T15:55:35.998Z"
+  },
+  "cashier": "sdada",
+  "status": "completed",
+  "createdAt": {
+    "$date": "2025-11-22T15:55:36.000Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-22T15:55:36.000Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69231bbcc092883540ea8d48"
+  },
+  "invoiceNumber": "17",
+  "items": [
+    {
+      "productId": {
+        "$oid": "6911e9234267a40c5af703ba"
+      },
+      "quantity": 1,
+      "price": 3600,
+      "subtotal": 3600,
+      "_id": {
+        "$oid": "69231bbcc092883540ea8d49"
+      }
+    },
+    {
+      "productId": {
+        "$oid": "6911e2234267a40c5af70393"
+      },
+      "quantity": 1,
+      "price": 3500,
+      "subtotal": 3500,
+      "_id": {
+        "$oid": "69231bbcc092883540ea8d4a"
+      }
+    },
+    {
+      "productId": {
+        "$oid": "691c729f1d79bd577efa4cce"
+      },
+      "quantity": 2,
+      "price": 530,
+      "subtotal": 1060,
+      "_id": {
+        "$oid": "69231bbcc092883540ea8d4b"
+      }
+    },
+    {
+      "productId": {
+        "$oid": "69148552d1a458103ca6860a"
+      },
+      "quantity": 1,
+      "price": 1300,
+      "subtotal": 1300,
+      "_id": {
+        "$oid": "69231bbcc092883540ea8d4c"
+      }
+    }
+  ],
+  "total": 9460,
+  "paymentMode": "Cash",
+  "date": {
+    "$date": "2025-11-23T14:35:40.355Z"
+  },
+  "cashier": "sdada",
+  "status": "completed",
+  "createdAt": {
+    "$date": "2025-11-23T14:35:40.365Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-23T14:35:40.365Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69231c32c092883540ea8d73"
+  },
+  "invoiceNumber": "18",
+  "items": [
+    {
+      "productId": {
+        "$oid": "6921979b7a50622fbca1a781"
+      },
+      "quantity": 1,
+      "price": 190,
+      "subtotal": 190,
+      "_id": {
+        "$oid": "69231c32c092883540ea8d74"
+      }
+    },
+    {
+      "productId": {
+        "$oid": "692197037a50622fbca1a77e"
+      },
+      "quantity": 1,
+      "price": 500,
+      "subtotal": 500,
+      "_id": {
+        "$oid": "69231c32c092883540ea8d75"
+      }
+    }
+  ],
+  "total": 690,
+  "paymentMode": "Cash",
+  "date": {
+    "$date": "2025-11-23T14:37:38.939Z"
+  },
+  "cashier": "sdada",
+  "status": "completed",
+  "createdAt": {
+    "$date": "2025-11-23T14:37:38.941Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-23T14:37:38.941Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69232934c092883540ea8d8e"
+  },
+  "invoiceNumber": "19",
+  "items": [
+    {
+      "productId": {
+        "$oid": "6906418521f9c06ddec9353d"
+      },
+      "quantity": 3,
+      "price": 1000.02,
+      "subtotal": 3000.06,
+      "_id": {
+        "$oid": "69232934c092883540ea8d8f"
+      }
+    },
+    {
+      "productId": {
+        "$oid": "6921979b7a50622fbca1a781"
+      },
+      "quantity": 2,
+      "price": 190,
+      "subtotal": 380,
+      "_id": {
+        "$oid": "69232934c092883540ea8d90"
+      }
+    },
+    {
+      "productId": {
+        "$oid": "6916f021cdf1715f12d18e0c"
+      },
+      "quantity": 1,
+      "price": 1120,
+      "subtotal": 1120,
+      "_id": {
+        "$oid": "69232934c092883540ea8d91"
+      }
+    },
+    {
+      "productId": {
+        "$oid": "691459b3d1a458103ca684c9"
+      },
+      "quantity": 1,
+      "price": 3300,
+      "subtotal": 3300,
+      "_id": {
+        "$oid": "69232934c092883540ea8d92"
+      }
+    },
+    {
+      "productId": {
+        "$oid": "6916ec79cdf1715f12d18e03"
+      },
+      "quantity": 2,
+      "price": 1150,
+      "subtotal": 2300,
+      "_id": {
+        "$oid": "69232934c092883540ea8d93"
+      }
+    },
+    {
+      "productId": {
+        "$oid": "69148cded1a458103ca68649"
+      },
+      "quantity": 1,
+      "price": 1000,
+      "subtotal": 1000,
+      "_id": {
+        "$oid": "69232934c092883540ea8d94"
+      }
+    },
+    {
+      "productId": {
+        "$oid": "6912088f4267a40c5af70436"
+      },
+      "quantity": 1,
+      "price": 1650,
+      "subtotal": 1650,
+      "_id": {
+        "$oid": "69232934c092883540ea8d95"
+      }
+    },
+    {
+      "productId": {
+        "$oid": "691dbac7a52b0eb003f34c38"
+      },
+      "quantity": 1,
+      "price": 1300,
+      "subtotal": 1300,
+      "_id": {
+        "$oid": "69232934c092883540ea8d96"
+      }
+    },
+    {
+      "productId": {
+        "$oid": "691ca1371d79bd577efa4e54"
+      },
+      "quantity": 1,
+      "price": 2400,
+      "subtotal": 2400,
+      "_id": {
+        "$oid": "69232934c092883540ea8d97"
+      }
+    }
+  ],
+  "total": 16450.059999999998,
+  "paymentMode": "Cash",
+  "date": {
+    "$date": "2025-11-23T15:33:08.802Z"
+  },
+  "cashier": "sdada",
+  "status": "completed",
+  "createdAt": {
+    "$date": "2025-11-23T15:33:08.805Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-23T15:33:08.805Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69233d00c092883540ea8de1"
+  },
+  "invoiceNumber": "20",
+  "items": [
+    {
+      "productId": {
+        "$oid": "6907b92e4bf6762018b1aa8a"
+      },
+      "quantity": 1,
+      "price": 1300,
+      "subtotal": 1300,
+      "_id": {
+        "$oid": "69233d00c092883540ea8de2"
+      }
+    },
+    {
+      "productId": {
+        "$oid": "690512a127d1713276b4020b"
+      },
+      "quantity": 1,
+      "price": 1015.63,
+      "subtotal": 1015.63,
+      "_id": {
+        "$oid": "69233d00c092883540ea8de3"
+      }
+    }
+  ],
+  "total": 2315.63,
+  "paymentMode": "Cash",
+  "date": {
+    "$date": "2025-11-23T16:57:36.803Z"
+  },
+  "cashier": "sdada",
+  "status": "completed",
+  "createdAt": {
+    "$date": "2025-11-23T16:57:36.805Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-23T16:57:36.805Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69242dfa50a610cd5076a760"
+  },
+  "invoiceNumber": "21",
+  "items": [
+    {
+      "productId": {
+        "$oid": "6921979b7a50622fbca1a781"
+      },
+      "quantity": 1,
+      "price": 190,
+      "subtotal": 190,
+      "_id": {
+        "$oid": "69242dfa50a610cd5076a761"
+      }
+    }
+  ],
+  "total": 190,
+  "paymentMode": "Cash",
+  "date": {
+    "$date": "2025-11-24T10:05:46.924Z"
+  },
+  "cashier": "chuks",
+  "status": "completed",
+  "createdAt": {
+    "$date": "2025-11-24T10:05:46.932Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-24T10:05:46.932Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69245d9150a610cd5076a7dd"
+  },
+  "invoiceNumber": "22",
+  "items": [
+    {
+      "productId": {
+        "$oid": "691dfc7554895495c2077963"
+      },
+      "quantity": 1,
+      "price": 3500,
+      "subtotal": 3500,
+      "_id": {
+        "$oid": "69245d9150a610cd5076a7de"
+      }
+    },
+    {
+      "productId": {
+        "$oid": "69051ef6fea9f7bcd9e97fc6"
+      },
+      "quantity": 1,
+      "price": 570,
+      "subtotal": 570,
+      "_id": {
+        "$oid": "69245d9150a610cd5076a7df"
+      }
+    },
+    {
+      "productId": {
+        "$oid": "6921979b7a50622fbca1a781"
+      },
+      "quantity": 1,
+      "price": 190,
+      "subtotal": 190,
+      "_id": {
+        "$oid": "69245d9150a610cd5076a7e0"
+      }
+    }
+  ],
+  "total": 4260,
+  "paymentMode": "Cash",
+  "date": {
+    "$date": "2025-11-24T13:28:49.645Z"
+  },
+  "cashier": "sdada",
+  "status": "completed",
+  "createdAt": {
+    "$date": "2025-11-24T13:28:49.655Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-24T13:28:49.655Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6924621250a610cd5076a814"
+  },
+  "invoiceNumber": "23",
+  "items": [
+    {
+      "productId": {
+        "$oid": "6906418521f9c06ddec9353d"
+      },
+      "quantity": 2,
+      "price": 1000.02,
+      "subtotal": 2000.04,
+      "_id": {
+        "$oid": "6924621250a610cd5076a815"
+      }
+    },
+    {
+      "productId": {
+        "$oid": "690511b627d1713276b40208"
+      },
+      "quantity": 3,
+      "price": 600,
+      "subtotal": 1800,
+      "_id": {
+        "$oid": "6924621250a610cd5076a816"
+      }
+    }
+  ],
+  "total": 3800.04,
+  "paymentMode": "Cash",
+  "date": {
+    "$date": "2025-11-24T13:48:02.180Z"
+  },
+  "cashier": "sdada",
+  "status": "completed",
+  "createdAt": {
+    "$date": "2025-11-24T13:48:02.182Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-24T13:48:02.182Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6924642e50a610cd5076a844"
+  },
+  "invoiceNumber": "24",
+  "items": [
+    {
+      "productId": {
+        "$oid": "691c77ad1d79bd577efa4cef"
+      },
+      "quantity": 1,
+      "price": 1250,
+      "subtotal": 1250,
+      "_id": {
+        "$oid": "6924642e50a610cd5076a845"
+      }
+    }
+  ],
+  "total": 1250,
+  "paymentMode": "Cash",
+  "date": {
+    "$date": "2025-11-24T13:57:02.810Z"
+  },
+  "cashier": "sdada",
+  "status": "completed",
+  "createdAt": {
+    "$date": "2025-11-24T13:57:02.812Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-24T13:57:02.812Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6924666450a610cd5076a855"
+  },
+  "invoiceNumber": "25",
+  "items": [
+    {
+      "productId": {
+        "$oid": "6906418521f9c06ddec9353d"
+      },
+      "quantity": 1,
+      "price": 1000.02,
+      "subtotal": 1000.02,
+      "_id": {
+        "$oid": "6924666450a610cd5076a856"
+      }
+    }
+  ],
+  "total": 1000.02,
+  "paymentMode": "Cash",
+  "date": {
+    "$date": "2025-11-24T14:06:28.678Z"
+  },
+  "cashier": "sdada",
+  "status": "completed",
+  "createdAt": {
+    "$date": "2025-11-24T14:06:28.680Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-24T14:06:28.680Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6924676550a610cd5076a868"
+  },
+  "invoiceNumber": "26",
+  "items": [
+    {
+      "productId": {
+        "$oid": "6911e2524267a40c5af70396"
+      },
+      "quantity": 1,
+      "price": 3500,
+      "subtotal": 3500,
+      "_id": {
+        "$oid": "6924676550a610cd5076a869"
+      }
+    },
+    {
+      "productId": {
+        "$oid": "69051ef6fea9f7bcd9e97fc6"
+      },
+      "quantity": 1,
+      "price": 570,
+      "subtotal": 570,
+      "_id": {
+        "$oid": "6924676550a610cd5076a86a"
+      }
+    }
+  ],
+  "total": 4070,
+  "paymentMode": "Cash",
+  "date": {
+    "$date": "2025-11-24T14:10:45.872Z"
+  },
+  "cashier": "sdada",
+  "status": "completed",
+  "createdAt": {
+    "$date": "2025-11-24T14:10:45.874Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-24T14:10:45.874Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6924703050a610cd5076a932"
+  },
+  "invoiceNumber": "27",
+  "items": [
+    {
+      "productId": {
+        "$oid": "6921979b7a50622fbca1a781"
+      },
+      "quantity": 3,
+      "price": 190,
+      "subtotal": 570,
+      "_id": {
+        "$oid": "6924703050a610cd5076a933"
+      }
+    }
+  ],
+  "total": 570,
+  "paymentMode": "Cash",
+  "date": {
+    "$date": "2025-11-24T14:48:16.190Z"
+  },
+  "cashier": "sdada",
+  "status": "completed",
+  "createdAt": {
+    "$date": "2025-11-24T14:48:16.191Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-24T14:48:16.191Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6924795d50a610cd5076a945"
+  },
+  "invoiceNumber": "28",
+  "items": [
+    {
+      "productId": {
+        "$oid": "69051ef6fea9f7bcd9e97fc6"
+      },
+      "quantity": 1,
+      "price": 570,
+      "subtotal": 570,
+      "_id": {
+        "$oid": "6924795d50a610cd5076a946"
+      }
+    },
+    {
+      "productId": {
+        "$oid": "6911e61f4267a40c5af703a5"
+      },
+      "quantity": 1,
+      "price": 120,
+      "subtotal": 120,
+      "_id": {
+        "$oid": "6924795d50a610cd5076a947"
+      }
+    },
+    {
+      "productId": {
+        "$oid": "692196797a50622fbca1a77b"
+      },
+      "quantity": 1,
+      "price": 500,
+      "subtotal": 500,
+      "_id": {
+        "$oid": "6924795d50a610cd5076a948"
+      }
+    }
+  ],
+  "total": 1190,
+  "paymentMode": "Cash",
+  "date": {
+    "$date": "2025-11-24T15:27:25.513Z"
+  },
+  "cashier": "sdada",
+  "status": "completed",
+  "createdAt": {
+    "$date": "2025-11-24T15:27:25.514Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-24T15:27:25.514Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6924982550a610cd5076a966"
+  },
+  "invoiceNumber": "29",
+  "items": [
+    {
+      "productId": {
+        "$oid": "692197037a50622fbca1a77e"
+      },
+      "quantity": 1,
+      "price": 500,
+      "subtotal": 500,
+      "_id": {
+        "$oid": "6924982550a610cd5076a967"
+      }
+    }
+  ],
+  "total": 500,
+  "paymentMode": "Cash",
+  "date": {
+    "$date": "2025-11-24T17:38:45.326Z"
+  },
+  "cashier": "mary",
+  "status": "completed",
+  "createdAt": {
+    "$date": "2025-11-24T17:38:45.327Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-24T17:38:45.327Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69249e1d50a610cd5076a985"
+  },
+  "invoiceNumber": "30",
+  "items": [
+    {
+      "productId": {
+        "$oid": "6921979b7a50622fbca1a781"
+      },
+      "quantity": 24,
+      "price": 150,
+      "subtotal": 3600,
+      "_id": {
+        "$oid": "69249e1d50a610cd5076a986"
+      }
+    },
+    {
+      "productId": {
+        "$oid": "6907a5a54bf6762018b1aa0a"
+      },
+      "quantity": 1,
+      "price": 15800,
+      "subtotal": 15800,
+      "_id": {
+        "$oid": "69249e1d50a610cd5076a987"
+      }
+    }
+  ],
+  "total": 19400,
+  "paymentMode": "Cash",
+  "date": {
+    "$date": "2025-11-24T18:04:13.167Z"
+  },
+  "cashier": "sdada",
+  "status": "completed",
+  "createdAt": {
+    "$date": "2025-11-24T18:04:13.169Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-24T18:04:13.169Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692584a312fcb8172eacf5e3"
+  },
+  "invoiceNumber": "31",
+  "items": [
+    {
+      "productId": {
+        "$oid": "6911b1864267a40c5af70234"
+      },
+      "quantity": 1,
+      "price": 3300,
+      "subtotal": 3300,
+      "_id": {
+        "$oid": "692584a312fcb8172eacf5e4"
+      }
+    }
+  ],
+  "total": 3300,
+  "paymentMode": "Cash",
+  "date": {
+    "$date": "2025-11-25T10:27:47.152Z"
+  },
+  "cashier": "sdada",
+  "status": "completed",
+  "createdAt": {
+    "$date": "2025-11-25T10:27:47.157Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-25T10:27:47.157Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69258eda12fcb8172eacf65c"
+  },
+  "invoiceNumber": "32",
+  "items": [
+    {
+      "productId": {
+        "$oid": "6921979b7a50622fbca1a781"
+      },
+      "quantity": 1,
+      "price": 190,
+      "subtotal": 190,
+      "_id": {
+        "$oid": "69258eda12fcb8172eacf65d"
+      }
+    },
+    {
+      "productId": {
+        "$oid": "69051ef6fea9f7bcd9e97fc6"
+      },
+      "quantity": 1,
+      "price": 570,
+      "subtotal": 570,
+      "_id": {
+        "$oid": "69258eda12fcb8172eacf65e"
+      }
+    }
+  ],
+  "total": 760,
+  "paymentMode": "Cash",
+  "date": {
+    "$date": "2025-11-25T11:11:22.199Z"
+  },
+  "cashier": "sdada",
+  "status": "completed",
+  "createdAt": {
+    "$date": "2025-11-25T11:11:22.203Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-25T11:11:22.203Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69259ed812fcb8172eacf6cf"
+  },
+  "invoiceNumber": "33",
+  "items": [
+    {
+      "productId": {
+        "$oid": "692196797a50622fbca1a77b"
+      },
+      "quantity": 1,
+      "price": 500,
+      "subtotal": 500,
+      "_id": {
+        "$oid": "69259ed812fcb8172eacf6d0"
+      }
+    }
+  ],
+  "total": 500,
+  "paymentMode": "Cash",
+  "date": {
+    "$date": "2025-11-25T12:19:36.841Z"
+  },
+  "cashier": "mary",
+  "status": "completed",
+  "createdAt": {
+    "$date": "2025-11-25T12:19:36.852Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-25T12:19:36.852Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6925aa0012fcb8172eacf6fd"
+  },
+  "invoiceNumber": "34",
+  "items": [
+    {
+      "productId": {
+        "$oid": "692196797a50622fbca1a77b"
+      },
+      "quantity": 1,
+      "price": 500,
+      "subtotal": 500,
+      "_id": {
+        "$oid": "6925aa0012fcb8172eacf6fe"
+      }
+    }
+  ],
+  "total": 500,
+  "paymentMode": "Cash",
+  "date": {
+    "$date": "2025-11-25T13:07:12.789Z"
+  },
+  "cashier": "mary",
+  "status": "completed",
+  "createdAt": {
+    "$date": "2025-11-25T13:07:12.790Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-25T13:07:12.790Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6925b5f012fcb8172eacf75d"
+  },
+  "invoiceNumber": "35",
+  "items": [
+    {
+      "productId": {
+        "$oid": "6921979b7a50622fbca1a781"
+      },
+      "quantity": 1,
+      "price": 190,
+      "subtotal": 190,
+      "_id": {
+        "$oid": "6925b5f112fcb8172eacf75e"
+      }
+    }
+  ],
+  "total": 190,
+  "paymentMode": "Cash",
+  "date": {
+    "$date": "2025-11-25T13:58:08.999Z"
+  },
+  "cashier": "sdada",
+  "status": "completed",
+  "createdAt": {
+    "$date": "2025-11-25T13:58:09.001Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-25T13:58:09.001Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6925bd3c12fcb8172eacf774"
+  },
+  "invoiceNumber": "36",
+  "items": [
+    {
+      "productId": {
+        "$oid": "690511b627d1713276b40208"
+      },
+      "quantity": 1,
+      "price": 600,
+      "subtotal": 600,
+      "_id": {
+        "$oid": "6925bd3c12fcb8172eacf775"
+      }
+    },
+    {
+      "productId": {
+        "$oid": "6911e53e4267a40c5af7039f"
+      },
+      "quantity": 1,
+      "price": 250,
+      "subtotal": 250,
+      "_id": {
+        "$oid": "6925bd3c12fcb8172eacf776"
+      }
+    }
+  ],
+  "total": 850,
+  "paymentMode": "Cash",
+  "date": {
+    "$date": "2025-11-25T14:29:16.409Z"
+  },
+  "cashier": "sdada",
+  "status": "completed",
+  "createdAt": {
+    "$date": "2025-11-25T14:29:16.411Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-25T14:29:16.411Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6925e79bde651c51eb02f629"
+  },
+  "invoiceNumber": "37",
+  "items": [
+    {
+      "productId": {
+        "$oid": "6906418521f9c06ddec9353d"
+      },
+      "quantity": 4,
+      "price": 1000.02,
+      "subtotal": 4000.08,
+      "_id": {
+        "$oid": "6925e79bde651c51eb02f62a"
+      }
+    }
+  ],
+  "total": 4000.08,
+  "paymentMode": "Cash",
+  "date": {
+    "$date": "2025-11-25T17:30:03.735Z"
+  },
+  "cashier": "mary",
+  "status": "completed",
+  "createdAt": {
+    "$date": "2025-11-25T17:30:03.742Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-25T17:30:03.742Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6925e9c2de651c51eb02f63b"
+  },
+  "invoiceNumber": "38",
+  "items": [
+    {
+      "productId": {
+        "$oid": "6910bc199fb90ac113d4ab73"
+      },
+      "quantity": 1,
+      "price": 1900,
+      "subtotal": 1900,
+      "_id": {
+        "$oid": "6925e9c2de651c51eb02f63c"
+      }
+    },
+    {
+      "productId": {
+        "$oid": "691087aaf8e44d16238dadea"
+      },
+      "quantity": 1,
+      "price": 6000,
+      "subtotal": 6000,
+      "_id": {
+        "$oid": "6925e9c2de651c51eb02f63d"
+      }
+    },
+    {
+      "productId": {
+        "$oid": "69132eca0c97fa970b72a4fc"
+      },
+      "quantity": 1,
+      "price": 1320,
+      "subtotal": 1320,
+      "_id": {
+        "$oid": "6925e9c2de651c51eb02f63e"
+      }
+    },
+    {
+      "productId": {
+        "$oid": "691201404267a40c5af7040c"
+      },
+      "quantity": 1,
+      "price": 800,
+      "subtotal": 800,
+      "_id": {
+        "$oid": "6925e9c2de651c51eb02f63f"
+      }
+    },
+    {
+      "productId": {
+        "$oid": "691200cc4267a40c5af70409"
+      },
+      "quantity": 1,
+      "price": 800,
+      "subtotal": 800,
+      "_id": {
+        "$oid": "6925e9c2de651c51eb02f640"
+      }
+    },
+    {
+      "productId": {
+        "$oid": "6925a89312fcb8172eacf6f2"
+      },
+      "quantity": 1,
+      "price": 500,
+      "subtotal": 500,
+      "_id": {
+        "$oid": "6925e9c2de651c51eb02f641"
+      }
+    },
+    {
+      "productId": {
+        "$oid": "6912088f4267a40c5af70436"
+      },
+      "quantity": 2,
+      "price": 1650,
+      "subtotal": 3300,
+      "_id": {
+        "$oid": "6925e9c2de651c51eb02f642"
+      }
+    },
+    {
+      "productId": {
+        "$oid": "6912005e4267a40c5af70406"
+      },
+      "quantity": 1,
+      "price": 1000,
+      "subtotal": 1000,
+      "_id": {
+        "$oid": "6925e9c2de651c51eb02f643"
+      }
+    },
+    {
+      "productId": {
+        "$oid": "6910d44a9fb90ac113d4abf0"
+      },
+      "quantity": 1,
+      "price": 2200,
+      "subtotal": 2200,
+      "_id": {
+        "$oid": "6925e9c2de651c51eb02f644"
+      }
+    },
+    {
+      "productId": {
+        "$oid": "69216ae37a50622fbca1a656"
+      },
+      "quantity": 8,
+      "price": 200,
+      "subtotal": 1600,
+      "_id": {
+        "$oid": "6925e9c2de651c51eb02f645"
+      }
+    },
+    {
+      "productId": {
+        "$oid": "69216b417a50622fbca1a659"
+      },
+      "quantity": 1,
+      "price": 3700,
+      "subtotal": 3700,
+      "_id": {
+        "$oid": "6925e9c2de651c51eb02f646"
+      }
+    },
+    {
+      "productId": {
+        "$oid": "6916ec30cdf1715f12d18e00"
+      },
+      "quantity": 5,
+      "price": 1150,
+      "subtotal": 5750,
+      "_id": {
+        "$oid": "6925e9c2de651c51eb02f647"
+      }
+    }
+  ],
+  "total": 28870,
+  "paymentMode": "Cash",
+  "date": {
+    "$date": "2025-11-25T17:39:14.011Z"
+  },
+  "cashier": "mary",
+  "status": "completed",
+  "createdAt": {
+    "$date": "2025-11-25T17:39:14.015Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-25T17:39:14.015Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6925ed6ade651c51eb02f720"
+  },
+  "invoiceNumber": "39",
+  "items": [
+    {
+      "productId": {
+        "$oid": "6921979b7a50622fbca1a781"
+      },
+      "quantity": 1,
+      "price": 190,
+      "subtotal": 190,
+      "_id": {
+        "$oid": "6925ed6ade651c51eb02f721"
+      }
+    }
+  ],
+  "total": 190,
+  "paymentMode": "Cash",
+  "date": {
+    "$date": "2025-11-25T17:54:50.814Z"
+  },
+  "cashier": "mary",
+  "status": "completed",
+  "createdAt": {
+    "$date": "2025-11-25T17:54:50.817Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-25T17:54:50.817Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6925f42ade651c51eb02f824"
+  },
+  "invoiceNumber": "40",
+  "items": [
+    {
+      "productId": {
+        "$oid": "69063e3121f9c06ddec9352b"
+      },
+      "quantity": 1,
+      "price": 520,
+      "subtotal": 520,
+      "_id": {
+        "$oid": "6925f42ade651c51eb02f825"
+      }
+    }
+  ],
+  "total": 520,
+  "paymentMode": "Cash",
+  "date": {
+    "$date": "2025-11-25T18:23:38.342Z"
+  },
+  "cashier": "mary",
+  "status": "completed",
+  "createdAt": {
+    "$date": "2025-11-25T18:23:38.344Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-25T18:23:38.344Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6925f74dde651c51eb02f840"
+  },
+  "invoiceNumber": "41",
+  "items": [
+    {
+      "productId": {
+        "$oid": "6916f234cdf1715f12d18e1b"
+      },
+      "quantity": 2,
+      "price": 900,
+      "subtotal": 1800,
+      "_id": {
+        "$oid": "6925f74dde651c51eb02f841"
+      }
+    }
+  ],
+  "total": 1800,
+  "paymentMode": "Cash",
+  "date": {
+    "$date": "2025-11-25T18:37:01.040Z"
+  },
+  "cashier": "mary",
+  "status": "completed",
+  "createdAt": {
+    "$date": "2025-11-25T18:37:01.042Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-25T18:37:01.042Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6925f808de651c51eb02f8c0"
+  },
+  "invoiceNumber": "42",
+  "items": [
+    {
+      "productId": {
+        "$oid": "6921846f7a50622fbca1a702"
+      },
+      "quantity": 1,
+      "price": 80,
+      "subtotal": 80,
+      "_id": {
+        "$oid": "6925f808de651c51eb02f8c1"
+      }
+    },
+    {
+      "productId": {
+        "$oid": "6916f6c2cdf1715f12d18e39"
+      },
+      "quantity": 2,
+      "price": 220,
+      "subtotal": 440,
+      "_id": {
+        "$oid": "6925f808de651c51eb02f8c2"
+      }
+    },
+    {
+      "productId": {
+        "$oid": "6910ddbb9fb90ac113d4ac2e"
+      },
+      "quantity": 2,
+      "price": 210,
+      "subtotal": 420,
+      "_id": {
+        "$oid": "6925f808de651c51eb02f8c3"
+      }
+    }
+  ],
+  "total": 940,
+  "paymentMode": "Cash",
+  "date": {
+    "$date": "2025-11-25T18:40:08.691Z"
+  },
+  "cashier": "mary",
+  "status": "completed",
+  "createdAt": {
+    "$date": "2025-11-25T18:40:08.696Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-25T18:40:08.696Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6926e425fddb8a390dd5289d"
+  },
+  "invoiceNumber": "43",
+  "items": [
+    {
+      "productId": {
+        "$oid": "6921979b7a50622fbca1a781"
+      },
+      "quantity": 1,
+      "price": 190,
+      "subtotal": 190,
+      "_id": {
+        "$oid": "6926e425fddb8a390dd5289e"
+      }
+    }
+  ],
+  "total": 190,
+  "paymentMode": "Cash",
+  "date": {
+    "$date": "2025-11-26T11:27:33.614Z"
+  },
+  "cashier": "chuks",
+  "status": "completed",
+  "createdAt": {
+    "$date": "2025-11-26T11:27:33.620Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-26T11:27:33.620Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6926ebf2fddb8a390dd528c4"
+  },
+  "invoiceNumber": "44",
+  "items": [
+    {
+      "productId": {
+        "$oid": "6911e5964267a40c5af703a2"
+      },
+      "quantity": 2,
+      "price": 250,
+      "subtotal": 500,
+      "_id": {
+        "$oid": "6926ebf2fddb8a390dd528c5"
+      }
+    }
+  ],
+  "total": 500,
+  "paymentMode": "Bank Transfer",
+  "date": {
+    "$date": "2025-11-26T12:00:50.921Z"
+  },
+  "cashier": "mary",
+  "status": "completed",
+  "createdAt": {
+    "$date": "2025-11-26T12:00:50.922Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-26T12:00:50.922Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6926eecdfddb8a390dd528d5"
+  },
+  "invoiceNumber": "45",
+  "items": [
+    {
+      "productId": {
+        "$oid": "691c35431d79bd577efa4ad4"
+      },
+      "quantity": 1,
+      "price": 1875,
+      "subtotal": 1875,
+      "_id": {
+        "$oid": "6926eecdfddb8a390dd528d6"
+      }
+    }
+  ],
+  "total": 1875,
+  "paymentMode": "Cash",
+  "date": {
+    "$date": "2025-11-26T12:13:01.264Z"
+  },
+  "cashier": "mary",
+  "status": "completed",
+  "createdAt": {
+    "$date": "2025-11-26T12:13:01.269Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-26T12:13:01.269Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6926f1c3fddb8a390dd528ea"
+  },
+  "invoiceNumber": "46",
+  "items": [
+    {
+      "productId": {
+        "$oid": "6911e2b94267a40c5af70399"
+      },
+      "quantity": 1,
+      "price": 6700,
+      "subtotal": 6700,
+      "_id": {
+        "$oid": "6926f1c3fddb8a390dd528eb"
+      }
+    },
+    {
+      "productId": {
+        "$oid": "6911e2524267a40c5af70396"
+      },
+      "quantity": 1,
+      "price": 3500,
+      "subtotal": 3500,
+      "_id": {
+        "$oid": "6926f1c3fddb8a390dd528ec"
+      }
+    },
+    {
+      "productId": {
+        "$oid": "6911e7304267a40c5af703ab"
+      },
+      "quantity": 1,
+      "price": 2900,
+      "subtotal": 2900,
+      "_id": {
+        "$oid": "6926f1c3fddb8a390dd528ed"
+      }
+    }
+  ],
+  "total": 13100,
+  "paymentMode": "Bank Transfer",
+  "date": {
+    "$date": "2025-11-26T12:25:39.663Z"
+  },
+  "cashier": "mary",
+  "status": "completed",
+  "createdAt": {
+    "$date": "2025-11-26T12:25:39.665Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-26T12:25:39.665Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6926f80dfddb8a390dd5295a"
+  },
+  "invoiceNumber": "47",
+  "items": [
+    {
+      "productId": {
+        "$oid": "6907a12d4bf6762018b1a9d9"
+      },
+      "quantity": 1,
+      "price": 5700,
+      "subtotal": 5700,
+      "_id": {
+        "$oid": "6926f80dfddb8a390dd5295b"
+      }
+    },
+    {
+      "productId": {
+        "$oid": "690640c821f9c06ddec9353a"
+      },
+      "quantity": 2,
+      "price": 700,
+      "subtotal": 1400,
+      "_id": {
+        "$oid": "6926f80dfddb8a390dd5295c"
+      }
+    }
+  ],
+  "total": 7100,
+  "paymentMode": "Cash",
+  "date": {
+    "$date": "2025-11-26T12:52:29.660Z"
+  },
+  "cashier": "mary",
+  "status": "completed",
+  "createdAt": {
+    "$date": "2025-11-26T12:52:29.662Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-26T12:52:29.662Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69270a31fddb8a390dd52b17"
+  },
+  "invoiceNumber": "48",
+  "items": [
+    {
+      "productId": {
+        "$oid": "6911eb7b4267a40c5af703d5"
+      },
+      "quantity": 3,
+      "price": 220,
+      "subtotal": 660,
+      "_id": {
+        "$oid": "69270a31fddb8a390dd52b18"
+      }
+    },
+    {
+      "productId": {
+        "$oid": "6926f3f7fddb8a390dd52909"
+      },
+      "quantity": 1,
+      "price": 1600,
+      "subtotal": 1600,
+      "_id": {
+        "$oid": "69270a31fddb8a390dd52b19"
+      }
+    }
+  ],
+  "total": 2260,
+  "paymentMode": "Cash",
+  "date": {
+    "$date": "2025-11-26T14:09:53.676Z"
+  },
+  "cashier": "sdada",
+  "status": "completed",
+  "createdAt": {
+    "$date": "2025-11-26T14:09:53.679Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-26T14:09:53.679Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69272d02fddb8a390dd52c37"
+  },
+  "invoiceNumber": "49",
+  "items": [
+    {
+      "productId": {
+        "$oid": "6926e8cafddb8a390dd528bd"
+      },
+      "quantity": 0,
+      "price": 0,
+      "subtotal": 0,
+      "_id": {
+        "$oid": "69272d02fddb8a390dd52c38"
+      }
+    }
+  ],
+  "total": 0,
+  "paymentMode": "Bank Transfer",
+  "date": {
+    "$date": "2025-11-26T16:38:26.886Z"
+  },
+  "cashier": "mary",
+  "status": "completed",
+  "createdAt": {
+    "$date": "2025-11-26T16:38:26.889Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-26T16:38:26.889Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69272d34fddb8a390dd52c48"
+  },
+  "invoiceNumber": "50",
+  "items": [
+    {
+      "productId": {
+        "$oid": "6926e8cafddb8a390dd528bd"
+      },
+      "quantity": 1,
+      "price": 1000,
+      "subtotal": 1000,
+      "_id": {
+        "$oid": "69272d34fddb8a390dd52c49"
+      }
+    }
+  ],
+  "total": 1000,
+  "paymentMode": "Bank Transfer",
+  "date": {
+    "$date": "2025-11-26T16:39:16.480Z"
+  },
+  "cashier": "mary",
+  "status": "completed",
+  "createdAt": {
+    "$date": "2025-11-26T16:39:16.481Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-26T16:39:16.481Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69272e01fddb8a390dd52c59"
+  },
+  "invoiceNumber": "51",
+  "items": [
+    {
+      "productId": {
+        "$oid": "6925a07f12fcb8172eacf6e3"
+      },
+      "quantity": 2,
+      "price": 1100,
+      "subtotal": 2200,
+      "_id": {
+        "$oid": "69272e01fddb8a390dd52c5a"
+      }
+    }
+  ],
+  "total": 2200,
+  "paymentMode": "Cash",
+  "date": {
+    "$date": "2025-11-26T16:42:41.462Z"
+  },
+  "cashier": "mary",
+  "status": "completed",
+  "createdAt": {
+    "$date": "2025-11-26T16:42:41.463Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-26T16:42:41.463Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69272f45fddb8a390dd52c6a"
+  },
+  "invoiceNumber": "52",
+  "items": [
+    {
+      "productId": {
+        "$oid": "691c4c2f1d79bd577efa4bc1"
+      },
+      "quantity": 12,
+      "price": 350,
+      "subtotal": 4200,
+      "_id": {
+        "$oid": "69272f45fddb8a390dd52c6b"
+      }
+    },
+    {
+      "productId": {
+        "$oid": "691de70654895495c20777ff"
+      },
+      "quantity": 1,
+      "price": 1800,
+      "subtotal": 1800,
+      "_id": {
+        "$oid": "69272f45fddb8a390dd52c6c"
+      }
+    },
+    {
+      "productId": {
+        "$oid": "691c4bde1d79bd577efa4bbe"
+      },
+      "quantity": 2,
+      "price": 1500,
+      "subtotal": 3000,
+      "_id": {
+        "$oid": "69272f45fddb8a390dd52c6d"
+      }
+    }
+  ],
+  "total": 9000,
+  "paymentMode": "Bank Transfer",
+  "date": {
+    "$date": "2025-11-26T16:48:05.429Z"
+  },
+  "cashier": "mary",
+  "status": "completed",
+  "createdAt": {
+    "$date": "2025-11-26T16:48:05.431Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-26T16:48:05.431Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69273010fddb8a390dd52c89"
+  },
+  "invoiceNumber": "53",
+  "items": [
+    {
+      "productId": {
+        "$oid": "691c43831d79bd577efa4b68"
+      },
+      "quantity": 1,
+      "price": 2000,
+      "subtotal": 2000,
+      "_id": {
+        "$oid": "69273010fddb8a390dd52c8a"
+      }
+    },
+    {
+      "productId": {
+        "$oid": "6911eb7b4267a40c5af703d5"
+      },
+      "quantity": 6,
+      "price": 220,
+      "subtotal": 1320,
+      "_id": {
+        "$oid": "69273010fddb8a390dd52c8b"
+      }
+    },
+    {
+      "productId": {
+        "$oid": "691087f0f8e44d16238daded"
+      },
+      "quantity": 1,
+      "price": 6000,
+      "subtotal": 6000,
+      "_id": {
+        "$oid": "69273010fddb8a390dd52c8c"
+      }
+    },
+    {
+      "productId": {
+        "$oid": "6910bc199fb90ac113d4ab73"
+      },
+      "quantity": 1,
+      "price": 1900,
+      "subtotal": 1900,
+      "_id": {
+        "$oid": "69273010fddb8a390dd52c8d"
+      }
+    },
+    {
+      "productId": {
+        "$oid": "6926fe41fddb8a390dd52ab4"
+      },
+      "quantity": 3,
+      "price": 750,
+      "subtotal": 2250,
+      "_id": {
+        "$oid": "69273010fddb8a390dd52c8e"
+      }
+    }
+  ],
+  "total": 13470,
+  "paymentMode": "Bank Transfer",
+  "date": {
+    "$date": "2025-11-26T16:51:28.317Z"
+  },
+  "cashier": "mary",
+  "status": "completed",
+  "createdAt": {
+    "$date": "2025-11-26T16:51:28.322Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-26T16:51:28.322Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692731b2fddb8a390dd52cc2"
+  },
+  "invoiceNumber": "54",
+  "items": [
+    {
+      "productId": {
+        "$oid": "6907a12d4bf6762018b1a9d9"
+      },
+      "quantity": 1,
+      "price": 5700,
+      "subtotal": 5700,
+      "_id": {
+        "$oid": "692731b2fddb8a390dd52cc3"
+      }
+    }
+  ],
+  "total": 5700,
+  "paymentMode": "Bank Transfer",
+  "date": {
+    "$date": "2025-11-26T16:58:26.604Z"
+  },
+  "cashier": "mary",
+  "status": "completed",
+  "createdAt": {
+    "$date": "2025-11-26T16:58:26.605Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-26T16:58:26.605Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69273a89fddb8a390dd52d31"
+  },
+  "invoiceNumber": "55",
+  "items": [
+    {
+      "productId": {
+        "$oid": "6926fe8ffddb8a390dd52ab7"
+      },
+      "quantity": 5,
+      "price": 100,
+      "subtotal": 500,
+      "_id": {
+        "$oid": "69273a89fddb8a390dd52d32"
+      }
+    }
+  ],
+  "total": 500,
+  "paymentMode": "Bank Transfer",
+  "date": {
+    "$date": "2025-11-26T17:36:09.858Z"
+  },
+  "cashier": "mary",
+  "status": "completed",
+  "createdAt": {
+    "$date": "2025-11-26T17:36:09.865Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-26T17:36:09.865Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69274313fddb8a390dd52e7e"
+  },
+  "invoiceNumber": "56",
+  "items": [
+    {
+      "productId": {
+        "$oid": "69270abffddb8a390dd52b2d"
+      },
+      "quantity": 2,
+      "price": 300,
+      "subtotal": 600,
+      "_id": {
+        "$oid": "69274313fddb8a390dd52e7f"
+      }
+    },
+    {
+      "productId": {
+        "$oid": "6916eab7cdf1715f12d18df7"
+      },
+      "quantity": 2,
+      "price": 290,
+      "subtotal": 580,
+      "_id": {
+        "$oid": "69274313fddb8a390dd52e80"
+      }
+    }
+  ],
+  "total": 1180,
+  "paymentMode": "Bank Transfer",
+  "date": {
+    "$date": "2025-11-26T18:12:35.417Z"
+  },
+  "cashier": "mary",
+  "status": "completed",
+  "createdAt": {
+    "$date": "2025-11-26T18:12:35.423Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-26T18:12:35.423Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69281aa91fade8cccaf28c3c"
+  },
+  "invoiceNumber": "57",
+  "items": [
+    {
+      "productId": {
+        "$oid": "6906418521f9c06ddec9353d"
+      },
+      "quantity": 2,
+      "price": 1000.02,
+      "subtotal": 2000.04,
+      "_id": {
+        "$oid": "69281aa91fade8cccaf28c3d"
+      }
+    },
+    {
+      "productId": {
+        "$oid": "6910bf3c9fb90ac113d4ab79"
+      },
+      "quantity": 4,
+      "price": 450,
+      "subtotal": 1800,
+      "_id": {
+        "$oid": "69281aa91fade8cccaf28c3e"
+      }
+    },
+    {
+      "productId": {
+        "$oid": "691329570c97fa970b72a4e1"
+      },
+      "quantity": 1,
+      "price": 780,
+      "subtotal": 780,
+      "_id": {
+        "$oid": "69281aa91fade8cccaf28c3f"
+      }
+    },
+    {
+      "productId": {
+        "$oid": "691329370c97fa970b72a4de"
+      },
+      "quantity": 1,
+      "price": 780,
+      "subtotal": 780,
+      "_id": {
+        "$oid": "69281aa91fade8cccaf28c40"
+      }
+    }
+  ],
+  "total": 5360.04,
+  "paymentMode": "Cash",
+  "date": {
+    "$date": "2025-11-27T09:32:25.665Z"
+  },
+  "cashier": "sdada",
+  "status": "completed",
+  "createdAt": {
+    "$date": "2025-11-27T09:32:25.673Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-27T09:32:25.673Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69281b911fade8cccaf28c62"
+  },
+  "invoiceNumber": "58",
+  "items": [
+    {
+      "productId": {
+        "$oid": "6906418521f9c06ddec9353d"
+      },
+      "quantity": 1,
+      "price": 1000.02,
+      "subtotal": 1000.02,
+      "_id": {
+        "$oid": "69281b911fade8cccaf28c63"
+      }
+    }
+  ],
+  "total": 1000.02,
+  "paymentMode": "Cash",
+  "date": {
+    "$date": "2025-11-27T09:36:17.555Z"
+  },
+  "cashier": "sdada",
+  "status": "completed",
+  "createdAt": {
+    "$date": "2025-11-27T09:36:17.556Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-27T09:36:17.556Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6928249a1fade8cccaf28c75"
+  },
+  "invoiceNumber": "59",
+  "items": [
+    {
+      "productId": {
+        "$oid": "6926fe8ffddb8a390dd52ab7"
+      },
+      "quantity": 5,
+      "price": 100,
+      "subtotal": 500,
+      "_id": {
+        "$oid": "6928249a1fade8cccaf28c76"
+      }
+    }
+  ],
+  "total": 500,
+  "paymentMode": "Cash",
+  "date": {
+    "$date": "2025-11-27T10:14:50.411Z"
+  },
+  "cashier": "sdada",
+  "status": "completed",
+  "createdAt": {
+    "$date": "2025-11-27T10:14:50.415Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-27T10:14:50.415Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692831b91fade8cccaf28c86"
+  },
+  "invoiceNumber": "60",
+  "items": [
+    {
+      "productId": {
+        "$oid": "6911bf8e4267a40c5af70264"
+      },
+      "quantity": 1,
+      "price": 400,
+      "subtotal": 400,
+      "_id": {
+        "$oid": "692831b91fade8cccaf28c87"
+      }
+    },
+    {
+      "productId": {
+        "$oid": "6911aff94267a40c5af70225"
+      },
+      "quantity": 1,
+      "price": 1750,
+      "subtotal": 1750,
+      "_id": {
+        "$oid": "692831b91fade8cccaf28c88"
+      }
+    },
+    {
+      "productId": {
+        "$oid": "6921979b7a50622fbca1a781"
+      },
+      "quantity": 1,
+      "price": 190,
+      "subtotal": 190,
+      "_id": {
+        "$oid": "692831b91fade8cccaf28c89"
+      }
+    },
+    {
+      "productId": {
+        "$oid": "6914b263d1a458103ca686b5"
+      },
+      "quantity": 1,
+      "price": 1000,
+      "subtotal": 1000,
+      "_id": {
+        "$oid": "692831b91fade8cccaf28c8a"
+      }
+    }
+  ],
+  "total": 3340,
+  "paymentMode": "Cash",
+  "date": {
+    "$date": "2025-11-27T11:10:49.369Z"
+  },
+  "cashier": "sdada",
+  "status": "completed",
+  "createdAt": {
+    "$date": "2025-11-27T11:10:49.370Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-27T11:10:49.370Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692831f71fade8cccaf28cac"
+  },
+  "invoiceNumber": "61",
+  "items": [
+    {
+      "productId": {
+        "$oid": "6921979b7a50622fbca1a781"
+      },
+      "quantity": 1,
+      "price": 190,
+      "subtotal": 190,
+      "_id": {
+        "$oid": "692831f71fade8cccaf28cad"
+      }
+    }
+  ],
+  "total": 190,
+  "paymentMode": "Cash",
+  "date": {
+    "$date": "2025-11-27T11:11:51.185Z"
+  },
+  "cashier": "sdada",
+  "status": "completed",
+  "createdAt": {
+    "$date": "2025-11-27T11:11:51.190Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-27T11:11:51.190Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692832921fade8cccaf28cbd"
+  },
+  "invoiceNumber": "62",
+  "items": [
+    {
+      "productId": {
+        "$oid": "690f7a61f8e44d16238dadb3"
+      },
+      "quantity": 1,
+      "price": 1500,
+      "subtotal": 1500,
+      "_id": {
+        "$oid": "692832921fade8cccaf28cbe"
+      }
+    },
+    {
+      "productId": {
+        "$oid": "6926f3f7fddb8a390dd52909"
+      },
+      "quantity": 1,
+      "price": 1600,
+      "subtotal": 1600,
+      "_id": {
+        "$oid": "692832921fade8cccaf28cbf"
+      }
+    }
+  ],
+  "total": 3100,
+  "paymentMode": "Bank Transfer",
+  "date": {
+    "$date": "2025-11-27T11:14:26.725Z"
+  },
+  "cashier": "sdada",
+  "status": "completed",
+  "createdAt": {
+    "$date": "2025-11-27T11:14:26.727Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-27T11:14:26.727Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6928364c1fade8cccaf28cd7"
+  },
+  "invoiceNumber": "63",
+  "items": [
+    {
+      "productId": {
+        "$oid": "6910d4959fb90ac113d4abf3"
+      },
+      "quantity": 1,
+      "price": 1000,
+      "subtotal": 1000,
+      "_id": {
+        "$oid": "6928364c1fade8cccaf28cd8"
+      }
+    }
+  ],
+  "total": 1000,
+  "paymentMode": "Cash",
+  "date": {
+    "$date": "2025-11-27T11:30:20.131Z"
+  },
+  "cashier": "chuks",
+  "status": "completed",
+  "createdAt": {
+    "$date": "2025-11-27T11:30:20.133Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-27T11:30:20.133Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69284a111fade8cccaf28cf5"
+  },
+  "invoiceNumber": "64",
+  "items": [
+    {
+      "productId": {
+        "$oid": "692196797a50622fbca1a77b"
+      },
+      "quantity": 1,
+      "price": 500,
+      "subtotal": 500,
+      "_id": {
+        "$oid": "69284a111fade8cccaf28cf6"
+      }
+    }
+  ],
+  "total": 500,
+  "paymentMode": "Cash",
+  "date": {
+    "$date": "2025-11-27T12:54:41.425Z"
+  },
+  "cashier": "oluwapelumi",
+  "status": "completed",
+  "createdAt": {
+    "$date": "2025-11-27T12:54:41.427Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-27T12:54:41.427Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69284ce61fade8cccaf28d07"
+  },
+  "invoiceNumber": "65",
+  "items": [
+    {
+      "productId": {
+        "$oid": "6918664e83f010bb944c1943"
+      },
+      "quantity": 1,
+      "price": 10000,
+      "subtotal": 10000,
+      "_id": {
+        "$oid": "69284ce61fade8cccaf28d08"
+      }
+    }
+  ],
+  "total": 10000,
+  "paymentMode": "Cash",
+  "date": {
+    "$date": "2025-11-27T13:06:46.648Z"
+  },
+  "cashier": "oluwapelumi",
+  "status": "completed",
+  "createdAt": {
+    "$date": "2025-11-27T13:06:46.649Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-27T13:06:46.649Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69284f8e1fade8cccaf28d1c"
+  },
+  "invoiceNumber": "66",
+  "items": [
+    {
+      "productId": {
+        "$oid": "69108ff6f8e44d16238dae05"
+      },
+      "quantity": 1,
+      "price": 1100,
+      "subtotal": 1100,
+      "_id": {
+        "$oid": "69284f8e1fade8cccaf28d1d"
+      }
+    }
+  ],
+  "total": 1100,
+  "paymentMode": "Cash",
+  "date": {
+    "$date": "2025-11-27T13:18:06.625Z"
+  },
+  "cashier": "oluwapelumi",
+  "status": "completed",
+  "createdAt": {
+    "$date": "2025-11-27T13:18:06.628Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-27T13:18:06.628Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6928540e1fade8cccaf28d2d"
+  },
+  "invoiceNumber": "67",
+  "items": [
+    {
+      "productId": {
+        "$oid": "6926f8b2fddb8a390dd52972"
+      },
+      "quantity": 1,
+      "price": 300,
+      "subtotal": 300,
+      "_id": {
+        "$oid": "6928540e1fade8cccaf28d2e"
+      }
+    },
+    {
+      "productId": {
+        "$oid": "690511b627d1713276b40208"
+      },
+      "quantity": 1,
+      "price": 600,
+      "subtotal": 600,
+      "_id": {
+        "$oid": "6928540e1fade8cccaf28d2f"
+      }
+    }
+  ],
+  "total": 900,
+  "paymentMode": "Bank Transfer",
+  "date": {
+    "$date": "2025-11-27T13:37:18.323Z"
+  },
+  "cashier": "oluwapelumi",
+  "status": "completed",
+  "createdAt": {
+    "$date": "2025-11-27T13:37:18.325Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-27T13:37:18.325Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692856521fade8cccaf28d45"
+  },
+  "invoiceNumber": "68",
+  "items": [
+    {
+      "productId": {
+        "$oid": "6926f8b2fddb8a390dd52972"
+      },
+      "quantity": 2,
+      "price": 300,
+      "subtotal": 600,
+      "_id": {
+        "$oid": "692856521fade8cccaf28d46"
+      }
+    }
+  ],
+  "total": 600,
+  "paymentMode": "Bank Transfer",
+  "date": {
+    "$date": "2025-11-27T13:46:58.365Z"
+  },
+  "cashier": "oluwapelumi",
+  "status": "completed",
+  "createdAt": {
+    "$date": "2025-11-27T13:46:58.370Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-27T13:46:58.370Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69285a131fade8cccaf28d56"
+  },
+  "invoiceNumber": "69",
+  "items": [
+    {
+      "productId": {
+        "$oid": "6911b6f84267a40c5af7024f"
+      },
+      "quantity": 2,
+      "price": 550,
+      "subtotal": 1100,
+      "_id": {
+        "$oid": "69285a131fade8cccaf28d57"
+      }
+    },
+    {
+      "productId": {
+        "$oid": "6926f3f7fddb8a390dd52909"
+      },
+      "quantity": 1,
+      "price": 1600,
+      "subtotal": 1600,
+      "_id": {
+        "$oid": "69285a131fade8cccaf28d58"
+      }
+    }
+  ],
+  "total": 2700,
+  "paymentMode": "Bank Transfer",
+  "date": {
+    "$date": "2025-11-27T14:02:59.972Z"
+  },
+  "cashier": "oluwapelumi",
+  "status": "completed",
+  "createdAt": {
+    "$date": "2025-11-27T14:02:59.977Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-27T14:02:59.977Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692863db1fade8cccaf28d95"
+  },
+  "invoiceNumber": "70",
+  "items": [
+    {
+      "productId": {
+        "$oid": "6907a1e84bf6762018b1a9e5"
+      },
+      "quantity": 1,
+      "price": 5700,
+      "subtotal": 5700,
+      "_id": {
+        "$oid": "692863db1fade8cccaf28d96"
+      }
+    },
+    {
+      "productId": {
+        "$oid": "690640c821f9c06ddec9353a"
+      },
+      "quantity": 1,
+      "price": 700,
+      "subtotal": 700,
+      "_id": {
+        "$oid": "692863db1fade8cccaf28d97"
+      }
+    }
+  ],
+  "total": 6400,
+  "paymentMode": "Bank Transfer",
+  "date": {
+    "$date": "2025-11-27T14:44:43.650Z"
+  },
+  "cashier": "oluwapelumi",
+  "status": "completed",
+  "createdAt": {
+    "$date": "2025-11-27T14:44:43.657Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-27T14:44:43.657Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692870771fade8cccaf28df7"
+  },
+  "invoiceNumber": "71",
+  "items": [
+    {
+      "productId": {
+        "$oid": "6911cb014267a40c5af70294"
+      },
+      "quantity": 1,
+      "price": 500,
+      "subtotal": 500,
+      "_id": {
+        "$oid": "692870771fade8cccaf28df8"
+      }
+    }
+  ],
+  "total": 500,
+  "paymentMode": "Cash",
+  "date": {
+    "$date": "2025-11-27T15:38:31.307Z"
+  },
+  "cashier": "oluwapelumi",
+  "status": "completed",
+  "createdAt": {
+    "$date": "2025-11-27T15:38:31.309Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-27T15:38:31.309Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692875161fade8cccaf28e08"
+  },
+  "invoiceNumber": "72",
+  "items": [
+    {
+      "productId": {
+        "$oid": "6926e84afddb8a390dd528ba"
+      },
+      "quantity": 1,
+      "price": 1300,
+      "subtotal": 1300,
+      "_id": {
+        "$oid": "692875161fade8cccaf28e09"
+      }
+    }
+  ],
+  "total": 1300,
+  "paymentMode": "Bank Transfer",
+  "date": {
+    "$date": "2025-11-27T15:58:14.982Z"
+  },
+  "cashier": "oluwapelumi",
+  "status": "completed",
+  "createdAt": {
+    "$date": "2025-11-27T15:58:14.987Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-27T15:58:14.987Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692876a21fade8cccaf28e19"
+  },
+  "invoiceNumber": "73",
+  "items": [
+    {
+      "productId": {
+        "$oid": "690512a127d1713276b4020b"
+      },
+      "quantity": 1,
+      "price": 1050,
+      "subtotal": 1050,
+      "_id": {
+        "$oid": "692876a21fade8cccaf28e1a"
+      }
+    }
+  ],
+  "total": 1050,
+  "paymentMode": "Bank Transfer",
+  "date": {
+    "$date": "2025-11-27T16:04:50.412Z"
+  },
+  "cashier": "oluwapelumi",
+  "status": "completed",
+  "createdAt": {
+    "$date": "2025-11-27T16:04:50.414Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-27T16:04:50.414Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692877741fade8cccaf28e2a"
+  },
+  "invoiceNumber": "74",
+  "items": [
+    {
+      "productId": {
+        "$oid": "6907a1e84bf6762018b1a9e5"
+      },
+      "quantity": 1,
+      "price": 5700,
+      "subtotal": 5700,
+      "_id": {
+        "$oid": "692877741fade8cccaf28e2b"
+      }
+    }
+  ],
+  "total": 5700,
+  "paymentMode": "Bank Transfer",
+  "date": {
+    "$date": "2025-11-27T16:08:20.187Z"
+  },
+  "cashier": "oluwapelumi",
+  "status": "completed",
+  "createdAt": {
+    "$date": "2025-11-27T16:08:20.188Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-27T16:08:20.188Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69287e2b1fade8cccaf28e41"
+  },
+  "invoiceNumber": "75",
+  "items": [
+    {
+      "productId": {
+        "$oid": "6910c2c39fb90ac113d4ab8e"
+      },
+      "quantity": 1,
+      "price": 1250,
+      "subtotal": 1250,
+      "_id": {
+        "$oid": "69287e2b1fade8cccaf28e42"
+      }
+    }
+  ],
+  "total": 1250,
+  "paymentMode": "Cash",
+  "date": {
+    "$date": "2025-11-27T16:36:59.818Z"
+  },
+  "cashier": "oluwapelumi",
+  "status": "completed",
+  "createdAt": {
+    "$date": "2025-11-27T16:36:59.820Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-27T16:36:59.820Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69287f0d1fade8cccaf28e5f"
+  },
+  "invoiceNumber": "76",
+  "items": [
+    {
+      "productId": {
+        "$oid": "6911de664267a40c5af70384"
+      },
+      "quantity": 1,
+      "price": 3750,
+      "subtotal": 3750,
+      "_id": {
+        "$oid": "69287f0d1fade8cccaf28e60"
+      }
+    }
+  ],
+  "total": 3750,
+  "paymentMode": "Bank Transfer",
+  "date": {
+    "$date": "2025-11-27T16:40:45.352Z"
+  },
+  "cashier": "oluwapelumi",
+  "status": "completed",
+  "createdAt": {
+    "$date": "2025-11-27T16:40:45.353Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-27T16:40:45.353Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6928847b1fade8cccaf28e86"
+  },
+  "invoiceNumber": "77",
+  "items": [
+    {
+      "productId": {
+        "$oid": "692197037a50622fbca1a77e"
+      },
+      "quantity": 1,
+      "price": 500,
+      "subtotal": 500,
+      "_id": {
+        "$oid": "6928847b1fade8cccaf28e87"
+      }
+    },
+    {
+      "productId": {
+        "$oid": "6926f8b2fddb8a390dd52972"
+      },
+      "quantity": 1,
+      "price": 300,
+      "subtotal": 300,
+      "_id": {
+        "$oid": "6928847b1fade8cccaf28e88"
+      }
+    },
+    {
+      "productId": {
+        "$oid": "691b499b61e40083d0850027"
+      },
+      "quantity": 1,
+      "price": 3500,
+      "subtotal": 3500,
+      "_id": {
+        "$oid": "6928847b1fade8cccaf28e89"
+      }
+    }
+  ],
+  "total": 4300,
+  "paymentMode": "Cash",
+  "date": {
+    "$date": "2025-11-27T17:03:55.688Z"
+  },
+  "cashier": "oluwapelumi",
+  "status": "completed",
+  "createdAt": {
+    "$date": "2025-11-27T17:03:55.689Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-27T17:03:55.689Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692888571fade8cccaf28ea9"
+  },
+  "invoiceNumber": "78",
+  "items": [
+    {
+      "productId": {
+        "$oid": "6926f858fddb8a390dd5296f"
+      },
+      "quantity": 1,
+      "price": 600,
+      "subtotal": 600,
+      "_id": {
+        "$oid": "692888571fade8cccaf28eaa"
+      }
+    },
+    {
+      "productId": {
+        "$oid": "692197037a50622fbca1a77e"
+      },
+      "quantity": 1,
+      "price": 500,
+      "subtotal": 500,
+      "_id": {
+        "$oid": "692888571fade8cccaf28eab"
+      }
+    },
+    {
+      "productId": {
+        "$oid": "692196797a50622fbca1a77b"
+      },
+      "quantity": 2,
+      "price": 500,
+      "subtotal": 1000,
+      "_id": {
+        "$oid": "692888571fade8cccaf28eac"
+      }
+    }
+  ],
+  "total": 2100,
+  "paymentMode": "Cash",
+  "date": {
+    "$date": "2025-11-27T17:20:23.306Z"
+  },
+  "cashier": "oluwapelumi",
+  "status": "completed",
+  "createdAt": {
+    "$date": "2025-11-27T17:20:23.311Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-27T17:20:23.311Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6929663c1ab3ab37172aadc1"
+  },
+  "invoiceNumber": "79",
+  "items": [
+    {
+      "productId": {
+        "$oid": "692196797a50622fbca1a77b"
+      },
+      "quantity": 2,
+      "price": 500,
+      "subtotal": 1000,
+      "_id": {
+        "$oid": "6929663c1ab3ab37172aadc2"
+      }
+    },
+    {
+      "productId": {
+        "$oid": "690512a127d1713276b4020b"
+      },
+      "quantity": 2,
+      "price": 1050,
+      "subtotal": 2100,
+      "_id": {
+        "$oid": "6929663c1ab3ab37172aadc3"
+      }
+    }
+  ],
+  "total": 3100,
+  "paymentMode": "Cash",
+  "date": {
+    "$date": "2025-11-28T09:07:08.759Z"
+  },
+  "cashier": "oluwapelumi",
+  "status": "completed",
+  "createdAt": {
+    "$date": "2025-11-28T09:07:08.765Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-28T09:07:08.765Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6929667b1ab3ab37172aadd9"
+  },
+  "invoiceNumber": "80",
+  "items": [
+    {
+      "productId": {
+        "$oid": "69063f0821f9c06ddec93534"
+      },
+      "quantity": 1,
+      "price": 650,
+      "subtotal": 650,
+      "_id": {
+        "$oid": "6929667b1ab3ab37172aadda"
+      }
+    }
+  ],
+  "total": 650,
+  "paymentMode": "Bank Transfer",
+  "date": {
+    "$date": "2025-11-28T09:08:11.041Z"
+  },
+  "cashier": "oluwapelumi",
+  "status": "completed",
+  "createdAt": {
+    "$date": "2025-11-28T09:08:11.043Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-28T09:08:11.043Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692966bc1ab3ab37172aadea"
+  },
+  "invoiceNumber": "81",
+  "items": [
+    {
+      "productId": {
+        "$oid": "692197037a50622fbca1a77e"
+      },
+      "quantity": 1,
+      "price": 500,
+      "subtotal": 500,
+      "_id": {
+        "$oid": "692966bc1ab3ab37172aadeb"
+      }
+    }
+  ],
+  "total": 500,
+  "paymentMode": "Bank Transfer",
+  "date": {
+    "$date": "2025-11-28T09:09:16.178Z"
+  },
+  "cashier": "oluwapelumi",
+  "status": "completed",
+  "createdAt": {
+    "$date": "2025-11-28T09:09:16.183Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-28T09:09:16.183Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692973c71ab3ab37172aaf6d"
+  },
+  "invoiceNumber": "82",
+  "items": [
+    {
+      "productId": {
+        "$oid": "6906418521f9c06ddec9353d"
+      },
+      "quantity": 2,
+      "price": 1000.02,
+      "subtotal": 2000.04,
+      "_id": {
+        "$oid": "692973c71ab3ab37172aaf6e"
+      }
+    }
+  ],
+  "total": 2000.04,
+  "paymentMode": "Bank Transfer",
+  "date": {
+    "$date": "2025-11-28T10:04:55.382Z"
+  },
+  "cashier": "oluwapelumi",
+  "status": "completed",
+  "createdAt": {
+    "$date": "2025-11-28T10:04:55.385Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-28T10:04:55.385Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69297ab71ab3ab37172ab188"
+  },
+  "invoiceNumber": "83",
+  "items": [
+    {
+      "productId": {
+        "$oid": "6925ad8412fcb8172eacf717"
+      },
+      "quantity": 2,
+      "price": 1000,
+      "subtotal": 2000,
+      "_id": {
+        "$oid": "69297ab71ab3ab37172ab189"
+      }
+    },
+    {
+      "productId": {
+        "$oid": "6906418521f9c06ddec9353d"
+      },
+      "quantity": 2,
+      "price": 1000.02,
+      "subtotal": 2000.04,
+      "_id": {
+        "$oid": "69297ab71ab3ab37172ab18a"
+      }
+    },
+    {
+      "productId": {
+        "$oid": "692196797a50622fbca1a77b"
+      },
+      "quantity": 1,
+      "price": 500,
+      "subtotal": 500,
+      "_id": {
+        "$oid": "69297ab71ab3ab37172ab18b"
+      }
+    }
+  ],
+  "total": 4500.04,
+  "paymentMode": "Bank Transfer",
+  "date": {
+    "$date": "2025-11-28T10:34:31.770Z"
+  },
+  "cashier": "oluwapelumi",
+  "status": "completed",
+  "createdAt": {
+    "$date": "2025-11-28T10:34:31.774Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-28T10:34:31.774Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692985fd2b6e6585a7df1bdc"
+  },
+  "invoiceNumber": "84",
+  "items": [
+    {
+      "productId": {
+        "$oid": "6921979b7a50622fbca1a781"
+      },
+      "quantity": 2,
+      "price": 150,
+      "subtotal": 300,
+      "type": "wholesale",
+      "packCount": 2,
+      "sellingPricePerPiece": null,
+      "_id": {
+        "$oid": "692985fd2b6e6585a7df1bdd"
+      }
+    }
+  ],
+  "total": 300,
+  "paymentMode": "Cash",
+  "date": {
+    "$date": "2025-11-28T11:22:37.543Z"
+  },
+  "cashier": "chuks",
+  "status": "completed",
+  "createdAt": {
+    "$date": "2025-11-28T11:22:37.548Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-28T11:22:37.548Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692987de2b6e6585a7df1c1a"
+  },
+  "invoiceNumber": "85",
+  "items": [
+    {
+      "productId": {
+        "$oid": "6921979b7a50622fbca1a781"
+      },
+      "quantity": 5,
+      "price": 190,
+      "subtotal": 950,
+      "type": "retail",
+      "packCount": 0,
+      "sellingPricePerPiece": null,
+      "_id": {
+        "$oid": "692987de2b6e6585a7df1c1b"
+      }
+    }
+  ],
+  "total": 950,
+  "paymentMode": "Cash",
+  "date": {
+    "$date": "2025-11-28T11:30:38.863Z"
+  },
+  "cashier": "chuks",
+  "status": "completed",
+  "createdAt": {
+    "$date": "2025-11-28T11:30:38.868Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-28T11:30:38.868Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692991630e9dbf0e437fd87f"
+  },
+  "invoiceNumber": "86",
+  "items": [
+    {
+      "productId": {
+        "$oid": "6921979b7a50622fbca1a781"
+      },
+      "quantity": 3,
+      "price": 150,
+      "subtotal": 450,
+      "type": "wholesale",
+      "packCount": 3,
+      "sellingPricePerPiece": null,
+      "_id": {
+        "$oid": "692991630e9dbf0e437fd880"
+      }
+    }
+  ],
+  "total": 450,
+  "paymentMode": "Cash",
+  "date": {
+    "$date": "2025-11-28T12:11:15.717Z"
+  },
+  "cashier": "chuks",
+  "status": "completed",
+  "createdAt": {
+    "$date": "2025-11-28T12:11:15.726Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-28T12:11:15.726Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69299e0237714d1d94e3d06e"
+  },
+  "invoiceNumber": "87",
+  "items": [
+    {
+      "productId": {
+        "$oid": "6921979b7a50622fbca1a781"
+      },
+      "quantity": 2,
+      "price": 150,
+      "subtotal": 300,
+      "type": "wholesale",
+      "packCount": 2,
+      "sellingPricePerPiece": null,
+      "_id": {
+        "$oid": "69299e0237714d1d94e3d06f"
+      }
+    }
+  ],
+  "total": 300,
+  "paymentMode": "Cash",
+  "date": {
+    "$date": "2025-11-28T13:05:06.096Z"
+  },
+  "cashier": "chuks",
+  "status": "completed",
+  "createdAt": {
+    "$date": "2025-11-28T13:05:06.124Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-28T13:05:06.124Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6929a0271e366841c146c4ab"
+  },
+  "invoiceNumber": "88",
+  "items": [
+    {
+      "productId": {
+        "$oid": "6921979b7a50622fbca1a781"
+      },
+      "quantity": 4,
+      "price": 150,
+      "subtotal": 600,
+      "type": "wholesale",
+      "packCount": 4,
+      "sellingPricePerPiece": null,
+      "_id": {
+        "$oid": "6929a0271e366841c146c4ac"
+      }
+    }
+  ],
+  "total": 600,
+  "paymentMode": "Cash",
+  "date": {
+    "$date": "2025-11-28T13:14:15.615Z"
+  },
+  "cashier": "chuks",
+  "status": "completed",
+  "createdAt": {
+    "$date": "2025-11-28T13:14:15.636Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-28T13:14:15.636Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6929a35df0f2dafb57a7768e"
+  },
+  "invoiceNumber": "89",
+  "items": [
+    {
+      "productId": {
+        "$oid": "6921979b7a50622fbca1a781"
+      },
+      "quantity": 3,
+      "price": 150,
+      "subtotal": 450,
+      "type": "wholesale",
+      "packCount": 3,
+      "sellingPricePerPiece": null,
+      "_id": {
+        "$oid": "6929a35df0f2dafb57a7768f"
+      }
+    }
+  ],
+  "total": 450,
+  "paymentMode": "Cash",
+  "date": {
+    "$date": "2025-11-28T13:27:57.143Z"
+  },
+  "cashier": "chuks",
+  "status": "fully refunded",
+  "createdAt": {
+    "$date": "2025-11-28T13:27:57.160Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-28T19:39:47.987Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6929a748f0f2dafb57a776b1"
+  },
+  "invoiceNumber": "90",
+  "items": [
+    {
+      "productId": {
+        "$oid": "6921979b7a50622fbca1a781"
+      },
+      "quantity": 36,
+      "price": 150,
+      "subtotal": 450,
+      "type": "wholesale",
+      "packCount": 3,
+      "sellingPricePerPiece": null,
+      "_id": {
+        "$oid": "6929a748f0f2dafb57a776b2"
+      }
+    }
+  ],
+  "total": 5400,
+  "paymentMode": "Cash",
+  "date": {
+    "$date": "2025-11-28T13:44:40.730Z"
+  },
+  "cashier": "chuks",
+  "status": "completed",
+  "createdAt": {
+    "$date": "2025-11-28T13:44:40.741Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-28T13:44:40.741Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6929b58b365933de3c78a43f"
+  },
+  "invoiceNumber": "91",
+  "items": [
+    {
+      "productId": {
+        "$oid": "6921979b7a50622fbca1a781"
+      },
+      "quantity": 3,
+      "price": 190,
+      "subtotal": 570,
+      "type": "retail",
+      "packCount": 0,
+      "sellingPricePerPiece": null,
+      "_id": {
+        "$oid": "6929b58b365933de3c78a440"
+      }
+    },
+    {
+      "productId": {
+        "$oid": "6921979b7a50622fbca1a781"
+      },
+      "quantity": 60,
+      "price": 150,
+      "subtotal": 750,
+      "type": "wholesale",
+      "packCount": 5,
+      "sellingPricePerPiece": null,
+      "_id": {
+        "$oid": "6929b58b365933de3c78a441"
+      }
+    }
+  ],
+  "total": 9570,
+  "paymentMode": "Cash",
+  "date": {
+    "$date": "2025-11-28T14:45:31.042Z"
+  },
+  "cashier": "chuks",
+  "status": "completed",
+  "createdAt": {
+    "$date": "2025-11-28T14:45:31.053Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-28T14:45:31.053Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6929ba6b365933de3c78a494"
+  },
+  "invoiceNumber": "92",
+  "items": [
+    {
+      "productId": {
+        "$oid": "6921979b7a50622fbca1a781"
+      },
+      "quantity": 48,
+      "price": 150,
+      "subtotal": 600,
+      "type": "wholesale",
+      "packCount": 4,
+      "sellingPricePerPiece": null,
+      "_id": {
+        "$oid": "6929ba6b365933de3c78a495"
+      }
+    }
+  ],
+  "total": 7200,
+  "paymentMode": "Cash",
+  "date": {
+    "$date": "2025-11-28T15:06:19.406Z"
+  },
+  "cashier": "chuks",
+  "status": "completed",
+  "createdAt": {
+    "$date": "2025-11-28T15:06:19.410Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-28T15:06:19.410Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6929baa9365933de3c78a4db"
+  },
+  "invoiceNumber": "93",
+  "items": [
+    {
+      "productId": {
+        "$oid": "6921979b7a50622fbca1a781"
+      },
+      "quantity": 24,
+      "price": 150,
+      "subtotal": 300,
+      "type": "wholesale",
+      "packCount": 2,
+      "sellingPricePerPiece": null,
+      "_id": {
+        "$oid": "6929baa9365933de3c78a4dc"
+      }
+    },
+    {
+      "productId": {
+        "$oid": "6921979b7a50622fbca1a781"
+      },
+      "quantity": 1,
+      "price": 190,
+      "subtotal": 190,
+      "type": "retail",
+      "packCount": 0,
+      "sellingPricePerPiece": null,
+      "_id": {
+        "$oid": "6929baa9365933de3c78a4dd"
+      }
+    }
+  ],
+  "total": 3790,
+  "paymentMode": "Cash",
+  "date": {
+    "$date": "2025-11-28T15:07:21.759Z"
+  },
+  "cashier": "chuks",
+  "status": "completed",
+  "createdAt": {
+    "$date": "2025-11-28T15:07:21.762Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-28T15:07:21.762Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692b41b8316b3ecd7ae7da32"
+  },
+  "invoiceNumber": "94",
+  "items": [
+    {
+      "productId": {
+        "$oid": "6921979b7a50622fbca1a781"
+      },
+      "quantity": 36,
+      "price": 150,
+      "subtotal": 450,
+      "type": "wholesale",
+      "packCount": 3,
+      "sellingPricePerPiece": null,
+      "_id": {
+        "$oid": "692b41b8316b3ecd7ae7da33"
+      }
+    }
+  ],
+  "total": 5400,
+  "paymentMode": "Bank Transfer",
+  "date": {
+    "$date": "2025-11-29T18:55:52.287Z"
+  },
+  "cashier": "chuks",
+  "status": "fully refunded",
+  "createdAt": {
+    "$date": "2025-11-29T18:55:52.296Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-28T18:59:42.513Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692b4a523543a49896f465cc"
+  },
+  "invoiceNumber": "95",
+  "items": [
+    {
+      "productId": {
+        "$oid": "6921979b7a50622fbca1a781"
+      },
+      "quantity": 24,
+      "price": 150,
+      "subtotal": 300,
+      "type": "wholesale",
+      "packCount": 2,
+      "sellingPricePerPiece": null,
+      "_id": {
+        "$oid": "692b4a523543a49896f465cd"
+      }
+    }
+  ],
+  "total": 3600,
+  "paymentMode": "Cash",
+  "date": {
+    "$date": "2025-11-29T19:32:34.561Z"
+  },
+  "cashier": "chuks",
+  "status": "completed",
+  "createdAt": {
+    "$date": "2025-11-29T19:32:34.573Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-29T19:32:34.573Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692d9720c6842749af414b48"
+  },
+  "invoiceNumber": "96",
+  "items": [
+    {
+      "productId": {
+        "$oid": "6921979b7a50622fbca1a781"
+      },
+      "quantity": 24,
+      "price": 150,
+      "subtotal": 300,
+      "type": "wholesale",
+      "packCount": 2,
+      "sellingPricePerPiece": null,
+      "_id": {
+        "$oid": "692d9720c6842749af414b49"
+      }
+    }
+  ],
+  "total": 3600,
+  "paymentMode": "Cash",
+  "date": {
+    "$date": "2025-12-01T13:24:48.245Z"
+  },
+  "cashier": "chuks",
+  "status": "fully refunded",
+  "createdAt": {
+    "$date": "2025-12-01T13:24:48.252Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-28T19:40:25.344Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692d9e30c6842749af414b6d"
+  },
+  "invoiceNumber": "97",
+  "items": [
+    {
+      "productId": {
+        "$oid": "6921979b7a50622fbca1a781"
+      },
+      "quantity": 1,
+      "price": 190,
+      "subtotal": 190,
+      "type": "retail",
+      "packCount": 0,
+      "sellingPricePerPiece": null,
+      "_id": {
+        "$oid": "692d9e30c6842749af414b6e"
+      }
+    },
+    {
+      "productId": {
+        "$oid": "6921979b7a50622fbca1a781"
+      },
+      "quantity": 24,
+      "price": 150,
+      "subtotal": 300,
+      "type": "wholesale",
+      "packCount": 2,
+      "sellingPricePerPiece": null,
+      "_id": {
+        "$oid": "692d9e30c6842749af414b6f"
+      }
+    }
+  ],
+  "total": 3790,
+  "paymentMode": "Cash",
+  "date": {
+    "$date": "2025-12-01T13:54:56.157Z"
+  },
+  "cashier": "chuks",
+  "status": "completed",
+  "createdAt": {
+    "$date": "2025-12-01T13:54:56.164Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-01T13:54:56.164Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695194637020a5763dec55a5"
+  },
+  "invoiceNumber": "98",
+  "items": [
+    {
+      "productId": {
+        "$oid": "69051ef6fea9f7bcd9e97fc6"
+      },
+      "quantity": 6,
+      "price": 570,
+      "subtotal": 3420,
+      "type": "retail",
+      "packCount": 0,
+      "sellingPricePerPiece": null,
+      "_id": {
+        "$oid": "695194637020a5763dec55a6"
+      }
+    },
+    {
+      "productId": {
+        "$oid": "690512a127d1713276b4020b"
+      },
+      "quantity": 4,
+      "price": 1050,
+      "subtotal": 4200,
+      "type": "retail",
+      "packCount": 0,
+      "sellingPricePerPiece": null,
+      "_id": {
+        "$oid": "695194637020a5763dec55a7"
+      }
+    },
+    {
+      "productId": {
+        "$oid": "690511b627d1713276b40208"
+      },
+      "quantity": 1,
+      "price": 600,
+      "subtotal": 600,
+      "type": "retail",
+      "packCount": 0,
+      "sellingPricePerPiece": null,
+      "_id": {
+        "$oid": "695194637020a5763dec55a8"
+      }
+    }
+  ],
+  "total": 8220,
+  "paymentMode": "Bank Transfer",
+  "date": {
+    "$date": "2025-12-28T20:34:43.283Z"
+  },
+  "cashier": "chuks",
+  "status": "partially returned",
+  "createdAt": {
+    "$date": "2025-12-28T20:34:43.297Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-28T20:36:12.798Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69519b0242f88a3b6e77d694"
+  },
+  "invoiceNumber": "99",
+  "items": [
+    {
+      "productId": {
+        "$oid": "690629ca21f9c06ddec934bb"
+      },
+      "quantity": 5,
+      "price": 5300,
+      "subtotal": 26500,
+      "type": "retail",
+      "packCount": 0,
+      "sellingPricePerPiece": null,
+      "_id": {
+        "$oid": "69519b0242f88a3b6e77d695"
+      }
+    },
+    {
+      "productId": {
+        "$oid": "6906267421f9c06ddec934b3"
+      },
+      "quantity": 1,
+      "price": 8500,
+      "subtotal": 8500,
+      "type": "retail",
+      "packCount": 0,
+      "sellingPricePerPiece": null,
+      "_id": {
+        "$oid": "69519b0242f88a3b6e77d696"
+      }
+    },
+    {
+      "productId": {
+        "$oid": "690511b627d1713276b40208"
+      },
+      "quantity": 13,
+      "price": 600,
+      "subtotal": 7800,
+      "type": "retail",
+      "packCount": 0,
+      "sellingPricePerPiece": null,
+      "_id": {
+        "$oid": "69519b0242f88a3b6e77d697"
+      }
+    }
+  ],
+  "total": 42800,
+  "paymentMode": "Cash",
+  "date": {
+    "$date": "2025-12-28T21:02:58.818Z"
+  },
+  "cashier": "chuks",
+  "status": "completed",
+  "createdAt": {
+    "$date": "2025-12-28T21:02:58.833Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-28T21:02:58.833Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6952476bc614e46d1440eb8d"
+  },
+  "invoiceNumber": "100",
+  "items": [
+    {
+      "productId": {
+        "$oid": "690511b627d1713276b40208"
+      },
+      "quantity": 24,
+      "price": 600,
+      "subtotal": 14400,
+      "type": "retail",
+      "packCount": 0,
+      "sellingPricePerPiece": null,
+      "_id": {
+        "$oid": "6952476bc614e46d1440eb8e"
+      }
+    }
+  ],
+  "total": 14400,
+  "paymentMode": "Cash",
+  "date": {
+    "$date": "2025-12-29T09:18:35.098Z"
+  },
+  "cashier": "chuks",
+  "status": "fully refunded",
+  "createdAt": {
+    "$date": "2025-12-29T09:18:35.114Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-29T09:19:00.904Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695247b2c614e46d1440ebb3"
+  },
+  "invoiceNumber": "101",
+  "items": [
+    {
+      "productId": {
+        "$oid": "690512a127d1713276b4020b"
+      },
+      "quantity": 15,
+      "price": 1050,
+      "subtotal": 15750,
+      "type": "retail",
+      "packCount": 0,
+      "sellingPricePerPiece": null,
+      "_id": {
+        "$oid": "695247b2c614e46d1440ebb4"
+      }
+    },
+    {
+      "productId": {
+        "$oid": "690511b627d1713276b40208"
+      },
+      "quantity": 24,
+      "price": 600,
+      "subtotal": 14400,
+      "type": "retail",
+      "packCount": 0,
+      "sellingPricePerPiece": null,
+      "_id": {
+        "$oid": "695247b2c614e46d1440ebb5"
+      }
+    }
+  ],
+  "total": 30150,
+  "paymentMode": "Cash",
+  "date": {
+    "$date": "2025-12-29T09:19:46.740Z"
+  },
+  "cashier": "chuks",
+  "status": "fully refunded",
+  "createdAt": {
+    "$date": "2025-12-29T09:19:46.745Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-29T09:20:26.003Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695250aec614e46d1440fa3d"
+  },
+  "invoiceNumber": "102",
+  "items": [
+    {
+      "productId": {
+        "$oid": "69062d8521f9c06ddec934c7"
+      },
+      "quantity": 4,
+      "price": 2968.75,
+      "subtotal": 11875,
+      "type": "retail",
+      "packCount": 0,
+      "sellingPricePerPiece": null,
+      "_id": {
+        "$oid": "695250aec614e46d1440fa3e"
+      }
+    }
+  ],
+  "total": 11875,
+  "paymentMode": "Cash",
+  "date": {
+    "$date": "2025-12-29T09:58:06.781Z"
+  },
+  "cashier": "chuks",
+  "status": "partially returned",
+  "createdAt": {
+    "$date": "2025-12-29T09:58:06.785Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-29T10:00:18.423Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695250fbc614e46d1440fa5d"
+  },
+  "invoiceNumber": "103",
+  "items": [
+    {
+      "productId": {
+        "$oid": "69062d8521f9c06ddec934c7"
+      },
+      "quantity": 1,
+      "price": 2968.75,
+      "subtotal": 2968.75,
+      "type": "retail",
+      "packCount": 0,
+      "sellingPricePerPiece": null,
+      "_id": {
+        "$oid": "695250fbc614e46d1440fa5e"
+      }
+    }
+  ],
+  "total": 2968.75,
+  "paymentMode": "Cash",
+  "date": {
+    "$date": "2025-12-29T09:59:23.011Z"
+  },
+  "cashier": "chuks",
+  "status": "completed",
+  "createdAt": {
+    "$date": "2025-12-29T09:59:23.014Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-29T09:59:23.014Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6952594bd455790bbb285f90"
+  },
+  "invoiceNumber": "104",
+  "items": [
+    {
+      "productId": {
+        "$oid": "69062b8a21f9c06ddec934c1"
+      },
+      "quantity": 1,
+      "price": 3500,
+      "subtotal": 3500,
+      "type": "retail",
+      "packCount": 0,
+      "sellingPricePerPiece": null,
+      "_id": {
+        "$oid": "6952594bd455790bbb285f91"
+      }
+    }
+  ],
+  "total": 3500,
+  "paymentMode": "Cash",
+  "date": {
+    "$date": "2025-12-29T10:34:51.527Z"
+  },
+  "cashier": "chuks",
+  "status": "completed",
+  "createdAt": {
+    "$date": "2025-12-29T10:34:51.537Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-29T10:34:51.537Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69525966d455790bbb285fa5"
+  },
+  "invoiceNumber": "105",
+  "items": [
+    {
+      "productId": {
+        "$oid": "69062b8a21f9c06ddec934c1"
+      },
+      "quantity": 3,
+      "price": 3500,
+      "subtotal": 10500,
+      "type": "retail",
+      "packCount": 0,
+      "sellingPricePerPiece": null,
+      "_id": {
+        "$oid": "69525966d455790bbb285fa6"
+      }
+    }
+  ],
+  "total": 10500,
+  "paymentMode": "Cash",
+  "date": {
+    "$date": "2025-12-29T10:35:18.654Z"
+  },
+  "cashier": "chuks",
+  "status": "partially returned",
+  "createdAt": {
+    "$date": "2025-12-29T10:35:18.659Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-29T10:37:31.968Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69525d9ac3d96bb6d229409a"
+  },
+  "invoiceNumber": "106",
+  "items": [
+    {
+      "productId": {
+        "$oid": "69062b8a21f9c06ddec934c1"
+      },
+      "quantity": 4,
+      "price": 3500,
+      "subtotal": 14000,
+      "type": "retail",
+      "packCount": 0,
+      "sellingPricePerPiece": null,
+      "_id": {
+        "$oid": "69525d9ac3d96bb6d229409b"
+      }
+    }
+  ],
+  "total": 14000,
+  "paymentMode": "Cash",
+  "date": {
+    "$date": "2025-12-29T10:53:14.279Z"
+  },
+  "cashier": "chuks",
+  "status": "fully refunded",
+  "createdAt": {
+    "$date": "2025-12-29T10:53:14.293Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-29T10:54:00.157Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69525ef6892d8f3e22b33700"
+  },
+  "invoiceNumber": "107",
+  "items": [
+    {
+      "productId": {
+        "$oid": "690634e421f9c06ddec934dc"
+      },
+      "quantity": 8,
+      "price": 1450,
+      "subtotal": 11600,
+      "type": "retail",
+      "packCount": 0,
+      "sellingPricePerPiece": null,
+      "_id": {
+        "$oid": "69525ef6892d8f3e22b33701"
+      }
+    }
+  ],
+  "total": 11600,
+  "paymentMode": "Cash",
+  "date": {
+    "$date": "2025-12-29T10:59:02.946Z"
+  },
+  "cashier": "chuks",
+  "status": "partially returned",
+  "createdAt": {
+    "$date": "2025-12-29T10:59:02.956Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-29T11:00:30.190Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69525f0f892d8f3e22b33715"
+  },
+  "invoiceNumber": "108",
+  "items": [
+    {
+      "productId": {
+        "$oid": "690634e421f9c06ddec934dc"
+      },
+      "quantity": 4,
+      "price": 1450,
+      "subtotal": 5800,
+      "type": "retail",
+      "packCount": 0,
+      "sellingPricePerPiece": null,
+      "_id": {
+        "$oid": "69525f0f892d8f3e22b33716"
+      }
+    }
+  ],
+  "total": 5800,
+  "paymentMode": "Bank Transfer",
+  "date": {
+    "$date": "2025-12-29T10:59:27.508Z"
+  },
+  "cashier": "chuks",
+  "status": "completed",
+  "createdAt": {
+    "$date": "2025-12-29T10:59:27.512Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-29T10:59:27.512Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695261d715ac6ec11473acac"
+  },
+  "invoiceNumber": "109",
+  "items": [
+    {
+      "productId": {
+        "$oid": "6907a6f84bf6762018b1aa14"
+      },
+      "quantity": 5,
+      "price": 5900,
+      "subtotal": 29500,
+      "type": "retail",
+      "packCount": 0,
+      "sellingPricePerPiece": null,
+      "_id": {
+        "$oid": "695261d715ac6ec11473acad"
+      }
+    }
+  ],
+  "total": 29500,
+  "paymentMode": "Cash",
+  "date": {
+    "$date": "2025-12-29T11:11:19.145Z"
+  },
+  "cashier": "chuks",
+  "status": "partially returned",
+  "createdAt": {
+    "$date": "2025-12-29T11:11:19.159Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-29T11:12:34.740Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695261ec15ac6ec11473acc1"
+  },
+  "invoiceNumber": "110",
+  "items": [
+    {
+      "productId": {
+        "$oid": "6907a6f84bf6762018b1aa14"
+      },
+      "quantity": 9,
+      "price": 5900,
+      "subtotal": 53100,
+      "type": "retail",
+      "packCount": 0,
+      "sellingPricePerPiece": null,
+      "_id": {
+        "$oid": "695261ec15ac6ec11473acc2"
+      }
+    }
+  ],
+  "total": 53100,
+  "paymentMode": "Bank Transfer",
+  "date": {
+    "$date": "2025-12-29T11:11:40.641Z"
+  },
+  "cashier": "chuks",
+  "status": "completed",
+  "createdAt": {
+    "$date": "2025-12-29T11:11:40.646Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-29T11:11:40.646Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69526534745e1c437bab779d"
+  },
+  "invoiceNumber": "111",
+  "items": [
+    {
+      "productId": {
+        "$oid": "6906338221f9c06ddec934d9"
+      },
+      "quantity": 12,
+      "price": 1450,
+      "subtotal": 17400,
+      "type": "retail",
+      "packCount": 0,
+      "sellingPricePerPiece": null,
+      "_id": {
+        "$oid": "69526534745e1c437bab779e"
+      }
+    }
+  ],
+  "total": 17400,
+  "paymentMode": "Cash",
+  "date": {
+    "$date": "2025-12-29T11:25:40.675Z"
+  },
+  "cashier": "chuks",
+  "status": "partially returned",
+  "createdAt": {
+    "$date": "2025-12-29T11:25:40.714Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-29T11:26:45.162Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695266e4c044584e1c78804a"
+  },
+  "invoiceNumber": "112",
+  "items": [
+    {
+      "productId": {
+        "$oid": "6907a4354bf6762018b1a9fa"
+      },
+      "quantity": 3,
+      "price": 4600,
+      "subtotal": 13800,
+      "type": "retail",
+      "packCount": 0,
+      "sellingPricePerPiece": null,
+      "_id": {
+        "$oid": "695266e4c044584e1c78804b"
+      }
+    }
+  ],
+  "total": 13800,
+  "paymentMode": "Cash",
+  "date": {
+    "$date": "2025-12-29T11:32:52.087Z"
+  },
+  "cashier": "chuks",
+  "status": "fully refunded",
+  "createdAt": {
+    "$date": "2025-12-29T11:32:52.095Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-29T12:05:30.447Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6952a3867829c7b2bcf5536f"
+  },
+  "invoiceNumber": "113",
+  "items": [
+    {
+      "productId": {
+        "$oid": "690629ca21f9c06ddec934bb"
+      },
+      "productName": "",
+      "quantity": 1,
+      "price": 5300,
+      "subtotal": 5300,
+      "type": "retail",
+      "packCount": 0,
+      "sellingPricePerPiece": null,
+      "_id": {
+        "$oid": "6952a3867829c7b2bcf55370"
+      }
+    },
+    {
+      "productId": {
+        "$oid": "690512a127d1713276b4020b"
+      },
+      "productName": "",
+      "quantity": 1,
+      "price": 1050,
+      "subtotal": 1050,
+      "type": "retail",
+      "packCount": 0,
+      "sellingPricePerPiece": null,
+      "_id": {
+        "$oid": "6952a3867829c7b2bcf55371"
+      }
+    },
+    {
+      "productId": {
+        "$oid": "690642e821f9c06ddec93540"
+      },
+      "productName": "",
+      "quantity": 2,
+      "price": 650,
+      "subtotal": 1300,
+      "type": "retail",
+      "packCount": 0,
+      "sellingPricePerPiece": null,
+      "_id": {
+        "$oid": "6952a3867829c7b2bcf55372"
+      }
+    },
+    {
+      "productId": {
+        "$oid": "6906285721f9c06ddec934b8"
+      },
+      "productName": "",
+      "quantity": 1,
+      "price": 15700,
+      "subtotal": 15700,
+      "type": "retail",
+      "packCount": 0,
+      "sellingPricePerPiece": null,
+      "_id": {
+        "$oid": "6952a3867829c7b2bcf55373"
+      }
+    }
+  ],
+  "total": 23350,
+  "paymentMode": "Cash",
+  "cashier": "chuks",
+  "status": "completed",
+  "date": {
+    "$date": "2025-12-29T15:51:34.855Z"
+  },
+  "createdAt": {
+    "$date": "2025-12-29T15:51:34.861Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-29T15:51:34.861Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6952b61b356e189a84ca2cdd"
+  },
+  "invoiceNumber": "114",
+  "items": [
+    {
+      "productId": {
+        "$oid": "690511b627d1713276b40208"
+      },
+      "productName": "",
+      "quantity": 1,
+      "price": 600,
+      "subtotal": 600,
+      "type": "retail",
+      "packCount": 0,
+      "sellingPricePerPiece": null,
+      "_id": {
+        "$oid": "6952b61b356e189a84ca2cde"
+      }
+    }
+  ],
+  "total": 600,
+  "paymentMode": "Cash",
+  "cashier": "chuks",
+  "status": "completed",
+  "date": {
+    "$date": "2025-12-29T17:10:51.232Z"
+  },
+  "createdAt": {
+    "$date": "2025-12-29T17:10:51.240Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-29T17:10:51.240Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6954f28a31f406cf72c90a8d"
+  },
+  "invoiceNumber": "115",
+  "items": [
+    {
+      "productId": {
+        "$oid": "6910dac39fb90ac113d4ac1f"
+      },
+      "productName": "",
+      "quantity": 12,
+      "price": 1850,
+      "subtotal": 22200,
+      "type": "retail",
+      "packCount": 0,
+      "sellingPricePerPiece": null,
+      "_id": {
+        "$oid": "6954f28a31f406cf72c90a8e"
+      }
+    }
+  ],
+  "total": 22200,
+  "paymentMode": "Cash",
+  "cashier": "chuks",
+  "status": "partially returned",
+  "date": {
+    "$date": "2025-12-31T09:53:14.727Z"
+  },
+  "createdAt": {
+    "$date": "2025-12-31T09:53:14.732Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-31T09:54:31.191Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695514ac12417e72df594fd3"
+  },
+  "invoiceNumber": "116",
+  "items": [
+    {
+      "productId": {
+        "$oid": "6907a3784bf6762018b1a9ef"
+      },
+      "productName": "",
+      "quantity": 4,
+      "price": 11400,
+      "subtotal": 45600,
+      "type": "retail",
+      "packCount": 0,
+      "sellingPricePerPiece": null,
+      "_id": {
+        "$oid": "695514ac12417e72df594fd4"
+      }
+    }
+  ],
+  "total": 45600,
+  "paymentMode": "Cash",
+  "cashier": "chuks",
+  "status": "fully refunded",
+  "date": {
+    "$date": "2025-12-31T12:18:52.443Z"
+  },
+  "createdAt": {
+    "$date": "2025-12-31T12:18:52.456Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-02T08:01:27.515Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69577ca5115c1a9452c76b27"
+  },
+  "invoiceNumber": "117",
+  "items": [
+    {
+      "productId": {
+        "$oid": "6907a3784bf6762018b1a9ef"
+      },
+      "productName": "",
+      "quantity": 2,
+      "price": 11400,
+      "subtotal": 22800,
+      "type": "retail",
+      "packCount": 0,
+      "sellingPricePerPiece": null,
+      "_id": {
+        "$oid": "69577ca5115c1a9452c76b28"
+      }
+    }
+  ],
+  "total": 22800,
+  "paymentMode": "Cash",
+  "cashier": "chuks",
+  "status": "completed",
+  "date": {
+    "$date": "2026-01-02T08:07:01.127Z"
+  },
+  "createdAt": {
+    "$date": "2026-01-02T08:07:01.129Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-02T08:07:01.129Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695790d64cb33e6f2a130f11"
+  },
+  "invoiceNumber": "118",
+  "items": [
+    {
+      "productId": {
+        "$oid": "6907ba714bf6762018b1aa93"
+      },
+      "productName": "",
+      "quantity": 5,
+      "price": 3800,
+      "subtotal": 19000,
+      "type": "retail",
+      "packCount": 0,
+      "sellingPricePerPiece": null,
+      "_id": {
+        "$oid": "695790d64cb33e6f2a130f12"
+      }
+    }
+  ],
+  "total": 19000,
+  "paymentMode": "Cash",
+  "cashier": "chuks",
+  "status": "fully refunded",
+  "date": {
+    "$date": "2026-01-02T09:33:10.942Z"
+  },
+  "createdAt": {
+    "$date": "2026-01-02T09:33:10.946Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-02T09:43:16.054Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6957b0e562709db449364572"
+  },
+  "invoiceNumber": "119",
+  "items": [
+    {
+      "productId": {
+        "$oid": "690512a127d1713276b4020b"
+      },
+      "productName": "",
+      "quantity": 2,
+      "price": 1050,
+      "subtotal": 2100,
+      "type": "retail",
+      "packCount": 0,
+      "sellingPricePerPiece": null,
+      "_id": {
+        "$oid": "6957b0e562709db449364573"
+      }
+    },
+    {
+      "productId": {
+        "$oid": "690511b627d1713276b40208"
+      },
+      "productName": "",
+      "quantity": 1,
+      "price": 600,
+      "subtotal": 600,
+      "type": "retail",
+      "packCount": 0,
+      "sellingPricePerPiece": null,
+      "_id": {
+        "$oid": "6957b0e562709db449364574"
+      }
+    }
+  ],
+  "total": 2700,
+  "paymentMode": "Cash",
+  "cashier": "chuks",
+  "status": "partially returned",
+  "date": {
+    "$date": "2026-01-02T11:49:57.931Z"
+  },
+  "createdAt": {
+    "$date": "2026-01-02T11:49:57.940Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-02T11:50:55.147Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69588916d1489b3f2d915274"
+  },
+  "invoiceNumber": "120",
+  "items": [
+    {
+      "productId": {
+        "$oid": "6910d73b9fb90ac113d4ac13"
+      },
+      "productName": "",
+      "quantity": 5,
+      "price": 1500,
+      "subtotal": 7500,
+      "type": "retail",
+      "packCount": 0,
+      "sellingPricePerPiece": null,
+      "_id": {
+        "$oid": "69588916d1489b3f2d915275"
+      }
+    }
+  ],
+  "total": 7500,
+  "paymentMode": "Bank Transfer",
+  "cashier": "chuks",
+  "status": "completed",
+  "date": {
+    "$date": "2026-01-03T03:12:22.391Z"
+  },
+  "createdAt": {
+    "$date": "2026-01-03T03:12:22.400Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-03T03:12:22.400Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695ab33a6012cc1b03d8288c"
+  },
+  "invoiceNumber": "121",
+  "items": [
+    {
+      "productId": {
+        "$oid": "690512a127d1713276b4020b"
+      },
+      "productName": "",
+      "quantity": 2,
+      "price": 1050,
+      "subtotal": 2100,
+      "type": "retail",
+      "packCount": 0,
+      "sellingPricePerPiece": null,
+      "_id": {
+        "$oid": "695ab33a6012cc1b03d8288d"
+      }
+    },
+    {
+      "productId": {
+        "$oid": "690511b627d1713276b40208"
+      },
+      "productName": "",
+      "quantity": 5,
+      "price": 600,
+      "subtotal": 3000,
+      "type": "retail",
+      "packCount": 0,
+      "sellingPricePerPiece": null,
+      "_id": {
+        "$oid": "695ab33a6012cc1b03d8288e"
+      }
+    }
+  ],
+  "total": 5100,
+  "paymentMode": "Cash",
+  "cashier": "chuks",
+  "status": "partially returned",
+  "date": {
+    "$date": "2026-01-04T18:36:42.364Z"
+  },
+  "createdAt": {
+    "$date": "2026-01-04T18:36:42.370Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-04T18:46:06.614Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6968a6464a6d0934892da182"
+  },
+  "invoiceNumber": "122",
+  "items": [
+    {
+      "productId": {
+        "$oid": "690512a127d1713276b4020b"
+      },
+      "productName": "",
+      "quantity": 1,
+      "price": 1050,
+      "subtotal": 1050,
+      "type": "retail",
+      "packCount": 0,
+      "sellingPricePerPiece": null,
+      "_id": {
+        "$oid": "6968a6464a6d0934892da183"
+      }
+    },
+    {
+      "productId": {
+        "$oid": "690511b627d1713276b40208"
+      },
+      "productName": "",
+      "quantity": 1,
+      "price": 600,
+      "subtotal": 600,
+      "type": "retail",
+      "packCount": 0,
+      "sellingPricePerPiece": null,
+      "_id": {
+        "$oid": "6968a6464a6d0934892da184"
+      }
+    }
+  ],
+  "total": 1650,
+  "paymentMode": "Cash",
+  "cashier": "chuks",
+  "status": "completed",
+  "date": {
+    "$date": "2026-01-15T08:33:10.375Z"
+  },
+  "createdAt": {
+    "$date": "2026-01-15T08:33:10.381Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-15T08:33:10.381Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "696a9abf4a6d0934892da1a0"
+  },
+  "invoiceNumber": "123",
+  "items": [
+    {
+      "productId": {
+        "$oid": "6906285721f9c06ddec934b8"
+      },
+      "productName": "",
+      "quantity": 1,
+      "price": 15700,
+      "subtotal": 15700,
+      "type": "retail",
+      "packCount": 0,
+      "sellingPricePerPiece": null,
+      "_id": {
+        "$oid": "696a9abf4a6d0934892da1a1"
+      }
+    },
+    {
+      "productId": {
+        "$oid": "690511b627d1713276b40208"
+      },
+      "productName": "",
+      "quantity": 1,
+      "price": 600,
+      "subtotal": 600,
+      "type": "retail",
+      "packCount": 0,
+      "sellingPricePerPiece": null,
+      "_id": {
+        "$oid": "696a9abf4a6d0934892da1a2"
+      }
+    }
+  ],
+  "total": 16300,
+  "paymentMode": "Cash",
+  "cashier": "chuks",
+  "status": "completed",
+  "date": {
+    "$date": "2026-01-16T20:08:31.182Z"
+  },
+  "createdAt": {
+    "$date": "2026-01-16T20:08:31.184Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-16T20:08:31.184Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "696a9e264a6d0934892da1c0"
+  },
+  "invoiceNumber": "124",
+  "items": [
+    {
+      "productId": {
+        "$oid": "6907a91d4bf6762018b1aa29"
+      },
+      "productName": "",
+      "quantity": 2,
+      "price": 25500,
+      "subtotal": 51000,
+      "type": "retail",
+      "packCount": 0,
+      "sellingPricePerPiece": null,
+      "_id": {
+        "$oid": "696a9e264a6d0934892da1c1"
+      }
+    },
+    {
+      "productId": {
+        "$oid": "69062fcb21f9c06ddec934d0"
+      },
+      "productName": "",
+      "quantity": 4,
+      "price": 21500,
+      "subtotal": 86000,
+      "type": "retail",
+      "packCount": 0,
+      "sellingPricePerPiece": null,
+      "_id": {
+        "$oid": "696a9e264a6d0934892da1c2"
+      }
+    },
+    {
+      "productId": {
+        "$oid": "69062ecd21f9c06ddec934cd"
+      },
+      "productName": "",
+      "quantity": 1,
+      "price": 8500,
+      "subtotal": 8500,
+      "type": "retail",
+      "packCount": 0,
+      "sellingPricePerPiece": null,
+      "_id": {
+        "$oid": "696a9e264a6d0934892da1c3"
+      }
+    }
+  ],
+  "total": 145500,
+  "paymentMode": "Cash",
+  "cashier": "chuks",
+  "status": "completed",
+  "date": {
+    "$date": "2026-01-16T20:23:02.140Z"
+  },
+  "createdAt": {
+    "$date": "2026-01-16T20:23:02.147Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-16T20:23:02.147Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6972f1484b6e9821bafb86c3"
+  },
+  "invoiceNumber": "125",
+  "items": [
+    {
+      "productId": {
+        "$oid": "6906285721f9c06ddec934b8"
+      },
+      "productName": "",
+      "quantity": 1,
+      "price": 15700,
+      "subtotal": 15700,
+      "type": "retail",
+      "packCount": 0,
+      "sellingPricePerPiece": null,
+      "_id": {
+        "$oid": "6972f1484b6e9821bafb86c4"
+      }
+    },
+    {
+      "productId": {
+        "$oid": "690511b627d1713276b40208"
+      },
+      "productName": "",
+      "quantity": 1,
+      "price": 600,
+      "subtotal": 600,
+      "type": "retail",
+      "packCount": 0,
+      "sellingPricePerPiece": null,
+      "_id": {
+        "$oid": "6972f1484b6e9821bafb86c5"
+      }
+    }
+  ],
+  "total": 16300,
+  "paymentMode": "Cash",
+  "cashier": "chuks",
+  "status": "completed",
+  "date": {
+    "$date": "2026-01-23T03:55:52.805Z"
+  },
+  "createdAt": {
+    "$date": "2026-01-23T03:55:52.809Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-23T03:55:52.809Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6972f206c9a3eea3a998f2d3"
+  },
+  "invoiceNumber": "126",
+  "items": [
+    {
+      "productId": {
+        "$oid": "6906285721f9c06ddec934b8"
+      },
+      "productName": "",
+      "quantity": 1,
+      "price": 15700,
+      "subtotal": 15700,
+      "type": "retail",
+      "packCount": 0,
+      "sellingPricePerPiece": null,
+      "_id": {
+        "$oid": "6972f206c9a3eea3a998f2d4"
+      }
+    },
+    {
+      "productId": {
+        "$oid": "690511b627d1713276b40208"
+      },
+      "productName": "",
+      "quantity": 1,
+      "price": 600,
+      "subtotal": 600,
+      "type": "retail",
+      "packCount": 0,
+      "sellingPricePerPiece": null,
+      "_id": {
+        "$oid": "6972f206c9a3eea3a998f2d5"
+      }
+    }
+  ],
+  "total": 16300,
+  "paymentMode": "Cash",
+  "cashier": "chuks",
+  "status": "completed",
+  "date": {
+    "$date": "2026-01-23T03:59:02.186Z"
+  },
+  "createdAt": {
+    "$date": "2026-01-23T03:59:02.196Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-23T03:59:02.196Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6972f270c9a3eea3a998f2fd"
+  },
+  "invoiceNumber": "127",
+  "items": [
+    {
+      "productId": {
+        "$oid": "690640c821f9c06ddec9353a"
+      },
+      "productName": "",
+      "quantity": 13,
+      "price": 700,
+      "subtotal": 9100,
+      "type": "retail",
+      "packCount": 0,
+      "sellingPricePerPiece": null,
+      "_id": {
+        "$oid": "6972f270c9a3eea3a998f2fe"
+      }
+    },
+    {
+      "productId": {
+        "$oid": "69063a1c21f9c06ddec934ea"
+      },
+      "productName": "",
+      "quantity": 1,
+      "price": 5700,
+      "subtotal": 5700,
+      "type": "retail",
+      "packCount": 0,
+      "sellingPricePerPiece": null,
+      "_id": {
+        "$oid": "6972f270c9a3eea3a998f2ff"
+      }
+    }
+  ],
+  "total": 14800,
+  "paymentMode": "Bank Transfer",
+  "cashier": "chuks",
+  "status": "completed",
+  "date": {
+    "$date": "2026-01-23T04:00:48.647Z"
+  },
+  "createdAt": {
+    "$date": "2026-01-23T04:00:48.648Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-23T04:00:48.648Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "697577e5bc6f3f09358daf12"
+  },
+  "invoiceNumber": "128",
+  "items": [
+    {
+      "productId": {
+        "$oid": "69063fc621f9c06ddec93537"
+      },
+      "productName": "",
+      "quantity": 5,
+      "price": 520,
+      "subtotal": 2600,
+      "type": "retail",
+      "packCount": 0,
+      "sellingPricePerPiece": null,
+      "_id": {
+        "$oid": "697577e5bc6f3f09358daf13"
+      }
+    },
+    {
+      "productId": {
+        "$oid": "69063f0821f9c06ddec93534"
+      },
+      "productName": "",
+      "quantity": 4,
+      "price": 650,
+      "subtotal": 2600,
+      "type": "retail",
+      "packCount": 0,
+      "sellingPricePerPiece": null,
+      "_id": {
+        "$oid": "697577e5bc6f3f09358daf14"
+      }
+    }
+  ],
+  "total": 5200,
+  "paymentMode": "Cash",
+  "cashier": "chuks",
+  "status": "completed",
+  "date": {
+    "$date": "2026-01-25T01:54:45.165Z"
+  },
+  "createdAt": {
+    "$date": "2026-01-25T01:54:45.177Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-25T01:54:45.177Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69759080fd02dfdf65242dad"
+  },
+  "invoiceNumber": "129",
+  "items": [
+    {
+      "productId": {
+        "$oid": "690511b627d1713276b40208"
+      },
+      "productName": "",
+      "quantity": 10,
+      "price": 600,
+      "subtotal": 6000,
+      "type": "retail",
+      "packCount": 0,
+      "sellingPricePerPiece": null,
+      "_id": {
+        "$oid": "69759080fd02dfdf65242dae"
+      }
+    }
+  ],
+  "total": 6000,
+  "paymentMode": "Cash",
+  "cashier": "chuks",
+  "status": "completed",
+  "date": {
+    "$date": "2026-01-25T03:39:44.354Z"
+  },
+  "createdAt": {
+    "$date": "2026-01-25T03:39:44.358Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-25T03:39:44.358Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69759221fd02dfdf65242dcf"
+  },
+  "invoiceNumber": "130",
+  "items": [
+    {
+      "productId": {
+        "$oid": "6907aa834bf6762018b1aa2e"
+      },
+      "productName": "",
+      "quantity": 1,
+      "price": 16500,
+      "subtotal": 16500,
+      "type": "retail",
+      "packCount": 0,
+      "sellingPricePerPiece": null,
+      "_id": {
+        "$oid": "69759221fd02dfdf65242dd0"
+      }
+    },
+    {
+      "productId": {
+        "$oid": "690634e421f9c06ddec934dc"
+      },
+      "productName": "",
+      "quantity": 1,
+      "price": 1450,
+      "subtotal": 1450,
+      "type": "retail",
+      "packCount": 0,
+      "sellingPricePerPiece": null,
+      "_id": {
+        "$oid": "69759221fd02dfdf65242dd1"
+      }
+    },
+    {
+      "productId": {
+        "$oid": "6906267421f9c06ddec934b3"
+      },
+      "productName": "",
+      "quantity": 1,
+      "price": 8500,
+      "subtotal": 8500,
+      "type": "retail",
+      "packCount": 0,
+      "sellingPricePerPiece": null,
+      "_id": {
+        "$oid": "69759221fd02dfdf65242dd2"
+      }
+    },
+    {
+      "productId": {
+        "$oid": "6906267421f9c06ddec934b3"
+      },
+      "productName": "",
+      "quantity": 1,
+      "price": 8500,
+      "subtotal": 8500,
+      "type": "retail",
+      "packCount": 0,
+      "sellingPricePerPiece": null,
+      "_id": {
+        "$oid": "69759221fd02dfdf65242dd3"
+      }
+    },
+    {
+      "productId": {
+        "$oid": "690512a127d1713276b4020b"
+      },
+      "productName": "",
+      "quantity": 1,
+      "price": 1050,
+      "subtotal": 1050,
+      "type": "retail",
+      "packCount": 0,
+      "sellingPricePerPiece": null,
+      "_id": {
+        "$oid": "69759221fd02dfdf65242dd4"
+      }
+    },
+    {
+      "productId": {
+        "$oid": "690511b627d1713276b40208"
+      },
+      "productName": "",
+      "quantity": 1,
+      "price": 600,
+      "subtotal": 600,
+      "type": "retail",
+      "packCount": 0,
+      "sellingPricePerPiece": null,
+      "_id": {
+        "$oid": "69759221fd02dfdf65242dd5"
+      }
+    }
+  ],
+  "total": 36600,
+  "paymentMode": "Cash",
+  "cashier": "chuks",
+  "status": "completed",
+  "date": {
+    "$date": "2026-01-25T03:46:41.639Z"
+  },
+  "createdAt": {
+    "$date": "2026-01-25T03:46:41.643Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-25T03:46:41.643Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6976388937e86cbaeb72f6d1"
+  },
+  "invoiceNumber": "131",
+  "items": [
+    {
+      "productId": {
+        "$oid": "690512a127d1713276b4020b"
+      },
+      "productName": "",
+      "quantity": 1,
+      "price": 1050,
+      "subtotal": 1050,
+      "type": "retail",
+      "packCount": 0,
+      "sellingPricePerPiece": null,
+      "_id": {
+        "$oid": "6976388937e86cbaeb72f6d2"
+      }
+    },
+    {
+      "productId": {
+        "$oid": "690511b627d1713276b40208"
+      },
+      "productName": "",
+      "quantity": 1,
+      "price": 600,
+      "subtotal": 600,
+      "type": "retail",
+      "packCount": 0,
+      "sellingPricePerPiece": null,
+      "_id": {
+        "$oid": "6976388937e86cbaeb72f6d3"
+      }
+    }
+  ],
+  "total": 1650,
+  "paymentMode": "Cash",
+  "customer": {
+    "$oid": "6972ef564b6e9821bafb86b3"
+  },
+  "cashier": "chuks",
+  "status": "completed",
+  "date": {
+    "$date": "2026-01-25T15:36:41.906Z"
+  },
+  "createdAt": {
+    "$date": "2026-01-25T15:36:41.920Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-25T15:36:41.920Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69764dfd6fe786f4e57194d2"
+  },
+  "invoiceNumber": "132",
+  "items": [
+    {
+      "productId": {
+        "$oid": "6907a91d4bf6762018b1aa29"
+      },
+      "productName": "",
+      "quantity": 1,
+      "price": 25500,
+      "subtotal": 25500,
+      "type": "retail",
+      "packCount": 0,
+      "sellingPricePerPiece": null,
+      "_id": {
+        "$oid": "69764dfd6fe786f4e57194d3"
+      }
+    },
+    {
+      "productId": {
+        "$oid": "6906285721f9c06ddec934b8"
+      },
+      "productName": "",
+      "quantity": 1,
+      "price": 15700,
+      "subtotal": 15700,
+      "type": "retail",
+      "packCount": 0,
+      "sellingPricePerPiece": null,
+      "_id": {
+        "$oid": "69764dfd6fe786f4e57194d4"
+      }
+    },
+    {
+      "productId": {
+        "$oid": "69051ef6fea9f7bcd9e97fc6"
+      },
+      "productName": "",
+      "quantity": 1,
+      "price": 570,
+      "subtotal": 570,
+      "type": "retail",
+      "packCount": 0,
+      "sellingPricePerPiece": null,
+      "_id": {
+        "$oid": "69764dfd6fe786f4e57194d5"
+      }
+    },
+    {
+      "productId": {
+        "$oid": "690511b627d1713276b40208"
+      },
+      "productName": "",
+      "quantity": 1,
+      "price": 600,
+      "subtotal": 600,
+      "type": "retail",
+      "packCount": 0,
+      "sellingPricePerPiece": null,
+      "_id": {
+        "$oid": "69764dfd6fe786f4e57194d6"
+      }
+    }
+  ],
+  "total": 42370,
+  "paymentMode": "Cash",
+  "customer": {
+    "$oid": "69764bc16fe786f4e5718c41"
+  },
+  "cashier": "chuks",
+  "status": "completed",
+  "date": {
+    "$date": "2026-01-25T17:08:13.336Z"
+  },
+  "createdAt": {
+    "$date": "2026-01-25T17:08:13.341Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-25T17:08:13.341Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6976cc3c5d156c93761f531e"
+  },
+  "invoiceNumber": "133",
+  "items": [
+    {
+      "productId": {
+        "$oid": "690511b627d1713276b40208"
+      },
+      "productName": "",
+      "quantity": 10,
+      "price": 600,
+      "subtotal": 6000,
+      "type": "retail",
+      "packCount": 0,
+      "sellingPricePerPiece": null,
+      "_id": {
+        "$oid": "6976cc3c5d156c93761f531f"
+      }
+    }
+  ],
+  "total": 6000,
+  "paymentMode": "Cash",
+  "customer": null,
+  "cashier": "chuks",
+  "status": "completed",
+  "date": {
+    "$date": "2026-01-26T02:06:52.941Z"
+  },
+  "createdAt": {
+    "$date": "2026-01-26T02:06:52.950Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-26T02:06:52.950Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6976ceb85d156c93761f9ae4"
+  },
+  "invoiceNumber": "134",
+  "items": [
+    {
+      "productId": {
+        "$oid": "6976cdb45d156c93761f6840"
+      },
+      "productName": "",
+      "quantity": 50,
+      "price": 5000,
+      "subtotal": 250000,
+      "type": "retail",
+      "packCount": 0,
+      "sellingPricePerPiece": null,
+      "_id": {
+        "$oid": "6976ceb85d156c93761f9ae5"
+      }
+    }
+  ],
+  "total": 250000,
+  "paymentMode": "Cash",
+  "customer": null,
+  "cashier": "chuks",
+  "status": "partially returned",
+  "date": {
+    "$date": "2026-01-26T02:17:28.661Z"
+  },
+  "createdAt": {
+    "$date": "2026-01-26T02:17:28.667Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-26T02:18:18.849Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6976df6f3996dc473813ba4a"
+  },
+  "invoiceNumber": "135",
+  "items": [
+    {
+      "productId": {
+        "$oid": "69063fc621f9c06ddec93537"
+      },
+      "productName": "",
+      "quantity": 1,
+      "price": 520,
+      "subtotal": 520,
+      "type": "retail",
+      "packCount": 0,
+      "sellingPricePerPiece": null,
+      "_id": {
+        "$oid": "6976df6f3996dc473813ba4b"
+      }
+    },
+    {
+      "productId": {
+        "$oid": "690512a127d1713276b4020b"
+      },
+      "productName": "",
+      "quantity": 1,
+      "price": 1050,
+      "subtotal": 1050,
+      "type": "retail",
+      "packCount": 0,
+      "sellingPricePerPiece": null,
+      "_id": {
+        "$oid": "6976df6f3996dc473813ba4c"
+      }
+    },
+    {
+      "productId": {
+        "$oid": "690511b627d1713276b40208"
+      },
+      "productName": "",
+      "quantity": 1,
+      "price": 600,
+      "subtotal": 600,
+      "type": "retail",
+      "packCount": 0,
+      "sellingPricePerPiece": null,
+      "_id": {
+        "$oid": "6976df6f3996dc473813ba4d"
+      }
+    },
+    {
+      "productId": {
+        "$oid": "6976cdb45d156c93761f6840"
+      },
+      "productName": "",
+      "quantity": 6,
+      "price": 4750,
+      "subtotal": 0,
+      "type": "wholesale",
+      "packCount": 3,
+      "sellingPricePerPiece": null,
+      "_id": {
+        "$oid": "6976df6f3996dc473813ba4e"
+      }
+    }
+  ],
+  "total": 2170,
+  "paymentMode": "Cash",
+  "customer": null,
+  "cashier": "chuks",
+  "status": "completed",
+  "date": {
+    "$date": "2026-01-26T03:28:47.784Z"
+  },
+  "createdAt": {
+    "$date": "2026-01-26T03:28:47.790Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-26T03:28:47.790Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6980f94f894fd94371748400"
+  },
+  "invoiceNumber": "136",
+  "items": [
+    {
+      "productId": {
+        "$oid": "690511b627d1713276b40208"
+      },
+      "productName": "",
+      "quantity": 10,
+      "price": 600,
+      "subtotal": 6000,
+      "type": "retail",
+      "packCount": 0,
+      "sellingPricePerPiece": null,
+      "_id": {
+        "$oid": "6980f94f894fd94371748401"
+      }
+    }
+  ],
+  "total": 6000,
+  "paymentMode": "Cash",
+  "customer": null,
+  "cashier": "chuks",
+  "status": "partially returned",
+  "date": {
+    "$date": "2026-02-02T19:21:51.462Z"
+  },
+  "createdAt": {
+    "$date": "2026-02-02T19:21:51.469Z"
+  },
+  "updatedAt": {
+    "$date": "2026-02-02T19:22:19.184Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "698103a1894fd94371749f37"
+  },
+  "invoiceNumber": "137",
+  "items": [
+    {
+      "productId": {
+        "$oid": "690512a127d1713276b4020b"
+      },
+      "productName": "",
+      "quantity": 4,
+      "price": 1050,
+      "subtotal": 4200,
+      "type": "retail",
+      "packCount": 0,
+      "sellingPricePerPiece": null,
+      "_id": {
+        "$oid": "698103a1894fd94371749f38"
+      }
+    }
+  ],
+  "total": 4200,
+  "paymentMode": "Cash",
+  "customer": null,
+  "cashier": "chuks",
+  "status": "completed",
+  "date": {
+    "$date": "2026-02-02T20:05:53.622Z"
+  },
+  "createdAt": {
+    "$date": "2026-02-02T20:05:53.625Z"
+  },
+  "updatedAt": {
+    "$date": "2026-02-02T20:05:53.625Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6981042a894fd9437174a35d"
+  },
+  "invoiceNumber": "138",
+  "items": [
+    {
+      "productId": {
+        "$oid": "6907ae484bf6762018b1aa47"
+      },
+      "productName": "",
+      "quantity": 2,
+      "price": 50500,
+      "subtotal": 101000,
+      "type": "retail",
+      "packCount": 0,
+      "sellingPricePerPiece": null,
+      "_id": {
+        "$oid": "6981042a894fd9437174a35e"
+      }
+    }
+  ],
+  "total": 101000,
+  "paymentMode": "Cash",
+  "customer": null,
+  "cashier": "chuks",
+  "status": "completed",
+  "date": {
+    "$date": "2026-02-02T20:08:10.616Z"
+  },
+  "createdAt": {
+    "$date": "2026-02-02T20:08:10.618Z"
+  },
+  "updatedAt": {
+    "$date": "2026-02-02T20:08:10.618Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69838f378654fda1c4877b67"
+  },
+  "invoiceNumber": "139",
+  "items": [
+    {
+      "productId": {
+        "$oid": "6921979b7a50622fbca1a781"
+      },
+      "productName": "",
+      "quantity": 12,
+      "price": 150,
+      "subtotal": 0,
+      "type": "wholesale",
+      "packCount": 1,
+      "sellingPricePerPiece": null,
+      "_id": {
+        "$oid": "69838f378654fda1c4877b68"
+      }
+    }
+  ],
+  "total": 0,
+  "paymentMode": "Cash",
+  "customer": null,
+  "cashier": "chuks",
+  "status": "completed",
+  "date": {
+    "$date": "2026-02-04T18:25:59.192Z"
+  },
+  "createdAt": {
+    "$date": "2026-02-04T18:25:59.203Z"
+  },
+  "updatedAt": {
+    "$date": "2026-02-04T18:25:59.203Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "698399c68654fda1c4877b93"
+  },
+  "invoiceNumber": "140",
+  "items": [
+    {
+      "productId": {
+        "$oid": "6921979b7a50622fbca1a781"
+      },
+      "productName": "",
+      "quantity": 24,
+      "price": 150,
+      "subtotal": 0,
+      "type": "wholesale",
+      "packCount": 2,
+      "sellingPricePerPiece": null,
+      "_id": {
+        "$oid": "698399c68654fda1c4877b94"
+      }
+    }
+  ],
+  "total": 0,
+  "paymentMode": "Bank Transfer",
+  "customer": null,
+  "cashier": "chuks",
+  "status": "fully refunded",
+  "date": {
+    "$date": "2026-02-04T19:11:02.056Z"
+  },
+  "createdAt": {
+    "$date": "2026-02-04T19:11:02.062Z"
+  },
+  "updatedAt": {
+    "$date": "2026-02-04T19:12:42.073Z"
+  },
+  "__v": 0
+}]

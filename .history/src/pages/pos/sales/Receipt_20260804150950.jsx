@@ -352,7 +352,7 @@ function Receipt() {
   // Watermark HTML for print windows — uses ABSOLUTE URL
   const getWatermarkHtml = () => {
     const fullUrl = window.location.origin + LOGO_PATH;
-    return `<img src="${fullUrl}" alt="" class="receipt-watermark" style="position:absolute; top:50%; left:50%; transform:translate(-50%,-50%) rotate(-30deg); width:400px; height:400px; object-fit:contain; opacity:0.12; pointer-events:none; z-index:9999;" />`;
+    return `<img src="${fullUrl}" alt="" class="receipt-watermark" style="position:absolute; top:50%; left:50%; transform:translate(-50%,-50%) rotate(-30deg); width:400px; height:400px; object-fit:contain; opacity:0.12; pointer-events:none; z-index:0;" />`;
   };
 
   const handlePrintReceipt = () => {

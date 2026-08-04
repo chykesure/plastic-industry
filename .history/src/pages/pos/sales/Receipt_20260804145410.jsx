@@ -285,12 +285,12 @@ function Receipt() {
     top: 50% !important;
     left: 50% !important;
     transform: translate(-50%, -50%) rotate(-30deg) !important;
-    width: 400px !important;
-    height: 400px !important;
+    width: 350px !important;
+    height: 350px !important;
     object-fit: contain !important;
-    opacity: 0.12 !important;
+    opacity: 0.06 !important;
     pointer-events: none !important;
-    z-index: 9999 !important;
+    z-index: 0 !important;
   }
 
   .signature-block {
@@ -349,10 +349,10 @@ function Receipt() {
     return `<img src="${fullUrl}" alt="Company Logo" style="display:block; margin:0 auto 8px auto; width:${size}px; height:${size}px; object-fit:contain;" />`;
   };
 
-  // Watermark HTML for print windows — uses ABSOLUTE URL
+  // Watermark HTML for print windows
   const getWatermarkHtml = () => {
     const fullUrl = window.location.origin + LOGO_PATH;
-    return `<img src="${fullUrl}" alt="" class="receipt-watermark" style="position:absolute; top:50%; left:50%; transform:translate(-50%,-50%) rotate(-30deg); width:400px; height:400px; object-fit:contain; opacity:0.12; pointer-events:none; z-index:9999;" />`;
+    return `<img src="${fullUrl}" alt="" class="receipt-watermark" style="position:absolute; top:50%; left:50%; transform:translate(-50%,-50%) rotate(-30deg); width:350px; height:350px; object-fit:contain; opacity:0.06; pointer-events:none; z-index:0;" />`;
   };
 
   const handlePrintReceipt = () => {
@@ -365,7 +365,7 @@ function Receipt() {
           <style>${printStyles}</style>
         </head>
         <body>
-          <div class="receipt-container" style="position:relative; overflow:hidden;">
+          <div class="receipt-container" style="position:relative;">
             ${getWatermarkHtml()}
             ${content}
           </div>
@@ -472,7 +472,7 @@ function Receipt() {
   <style>${printStyles}</style>
 </head>
 <body>
-  <div class="receipt-container" style="position:relative; overflow:hidden;">
+  <div class="receipt-container" style="position:relative;">
     ${getWatermarkHtml()}
     ${waybillHeader}
     ${waybillTable}
@@ -622,11 +622,11 @@ function Receipt() {
 
         {sale && (
           <div className="bg-white text-gray-900 rounded-xl shadow-2xl overflow-hidden ring-1 ring-gray-200 border border-gray-200" style={{ position: "relative" }}>
-            <div className="p-8 md:p-10" ref={receiptRef} style={{ position: "relative", overflow: "hidden" }}>
+            <div className="p-8 md:p-10" ref={receiptRef} style={{ position: "relative" }}>
 
-              {/* ── Watermark — MUST use absolute URL for print window ── */}
+              {/* ── Watermark ── */}
               <img
-                src={window.location.origin + LOGO_PATH}
+                src={LOGO_PATH}
                 alt=""
                 className="receipt-watermark"
                 style={{
@@ -634,12 +634,12 @@ function Receipt() {
                   top: "50%",
                   left: "50%",
                   transform: "translate(-50%, -50%) rotate(-30deg)",
-                  width: 400,
-                  height: 400,
+                  width: 350,
+                  height: 350,
                   objectFit: "contain",
-                  opacity: 0.12,
+                  opacity: 0.06,
                   pointerEvents: "none",
-                  zIndex: 9999,
+                  zIndex: 0,
                 }}
               />
 
