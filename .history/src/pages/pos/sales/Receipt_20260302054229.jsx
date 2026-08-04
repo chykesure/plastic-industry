@@ -265,7 +265,7 @@ function Receipt() {
 
     const waybillItems = sale.items.map((item, i) => `
 <tr>
-  <td style="text-align:center; padding:8px 6px; border-bottom:1px solid #ddd;">${i+1}</td>
+  <td style="text-align:center; padding:8px 6px; border-bottom:1px solid #ddd;">${i + 1}</td>
   <td style="padding:8px 6px; border-bottom:1px solid #ddd;">${item.productName || item.description || "—"}</td>
   <td style="text-align:center; padding:8px 6px; border-bottom:1px solid #ddd;">${item.quantity}</td>
 </tr>
@@ -349,10 +349,10 @@ function Receipt() {
   const paymentMethod = sale?.paymentMode || "Cash";
   const printDate = sale?.date
     ? new Date(sale.date).toLocaleDateString("en-GB", {
-        day: "2-digit",
-        month: "short",
-        year: "numeric",
-      })
+      day: "2-digit",
+      month: "short",
+      year: "numeric",
+    })
     : "—";
 
   return (
@@ -385,11 +385,10 @@ function Receipt() {
             <button
               onClick={handleSearch}
               disabled={isLoading}
-              className={`px-6 py-2.5 rounded-lg font-medium text-white flex items-center gap-2 transition-all ${
-                isLoading
-                  ? "bg-indigo-500/50 cursor-not-allowed"
-                  : "bg-indigo-600 hover:bg-indigo-500 active:bg-indigo-700 shadow-md shadow-indigo-500/20"
-              }`}
+              className={`px-6 py-2.5 rounded-lg font-medium text-white flex items-center gap-2 transition-all ${isLoading
+                ? "bg-indigo-500/50 cursor-not-allowed"
+                : "bg-indigo-600 hover:bg-indigo-500 active:bg-indigo-700 shadow-md shadow-indigo-500/20"
+                }`}
             >
               {isLoading ? (
                 <>
