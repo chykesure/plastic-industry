@@ -4,6 +4,9 @@ import { useLocation, useNavigate } from "react-router-dom";
 
 const API_BASE = import.meta.env.VITE_API_URL || "http://localhost:8080";
 
+// Logo path — place EO_LOGO.PNG in your public/ folder
+const LOGO_PATH = "/EO_LOGO.PNG";
+
 function Receipt() {
   const receiptRef = useRef();
   const printedRef = useRef(false);
@@ -16,7 +19,6 @@ function Receipt() {
   const [printedBy, setPrintedBy] = useState("");
   const [isLoading, setIsLoading] = useState(false);
 
-  // Robust helpers for customer data
   const getCustomerName = () => {
     if (sale?.customer?.name) return sale.customer.name;
     if (sale?.customerName) return sale.customerName;
@@ -32,129 +34,263 @@ function Receipt() {
     return "";
   };
 
-  // Shared print styles (white print, dark screen)
+  // ──────────────────── PRINT STYLES ────────────────────
   const printStyles = `
+
 @media print {
   @page {
     size: A4 portrait;
-    margin: 12mm 10mm;
+    margin: 10mm 12mm;
   }
+
+  * { box-sizing: border-box; }
 
   body {
     background: #ffffff !important;
     margin: 0 !important;
     padding: 0 !important;
-    font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif !important;
-    color: #000000 !important;
+    font-family: 'Inter', 'Segoe UI', Arial, sans-serif !important;
+    color: #1a1a1a !important;
     -webkit-print-color-adjust: exact !important;
     print-color-adjust: exact !important;
+    -webkit-font-smoothing: antialiased;
   }
 
-  /* Force white background regardless of screen theme */
   .receipt-container, [class*="bg-"] {
     background: #ffffff !important;
-    color: #000000 !important;
+    color: #1a1a1a !important;
   }
 
-  .text-slate-100, .text-white, .text-gray-200 {
-    color: #000000 !important;
+  .text-slate-100, .text-white, .text-gray-200,
+  .text-slate-300, .text-slate-400, .text-slate-500, .text-indigo-400 {
+    color: #1a1a1a !important;
+  }
+
+  .company-logo {
+    display: block !important;
+    margin: 0 auto 8px auto !important;
+    width: 200px !important;
+    height: 200px !important;
+    object-fit: contain !important;
   }
 
   .company-name {
-    font-size: 28px !important;
+    font-family: 'Arial Black', 'Arial Bold', Arial, sans-serif !important;
+    font-size: 22px !important;
     font-weight: 900 !important;
-    letter-spacing: 1.8px !important;
+    letter-spacing: 2.5px !important;
     text-transform: uppercase !important;
     text-align: center !important;
-    margin: 0 0 6px 0 !important;
-    line-height: 1.05 !important;
+    margin: 0 0 2px 0 !important;
+    line-height: 1.15 !important;
+    color: #0d1b2a !important;
+  }
+
+  .company-tagline {
+    text-align: center !important;
+    font-family: 'Inter', Arial, sans-serif !important;
+    font-size: 9px !important;
+    font-weight: 500 !important;
+    letter-spacing: 3px !important;
+    text-transform: uppercase !important;
+    color: #555 !important;
+    margin-bottom: 4px !important;
   }
 
   .company-info {
     text-align: center !important;
-    font-size: 12.5px !important;
-    color: #222 !important;
-    line-height: 1.45 !important;
-    margin-bottom: 20px !important;
+    font-family: 'Inter', Arial, sans-serif !important;
+    font-size: 11px !important;
+    font-weight: 400 !important;
+    color: #333 !important;
+    line-height: 1.6 !important;
+    margin-bottom: 6px !important;
+  }
+
+  .header-divider {
+    border: none !important;
+    border-top: 2.5px solid #0d1b2a !important;
+    margin: 12px auto 0 auto !important;
+    width: 80% !important;
+  }
+
+  .invoice-title {
+    font-family: 'Inter', Arial, sans-serif !important;
+    font-size: 10px !important;
+    font-weight: 700 !important;
+    letter-spacing: 4px !important;
+    text-transform: uppercase !important;
+    text-align: center !important;
+    color: #666 !important;
+    margin: 14px 0 0 0 !important;
   }
 
   .meta-section {
     display: flex !important;
     justify-content: space-between !important;
-    font-size: 13px !important;
-    margin: 20px 0 24px 0 !important;
-    padding-bottom: 18px !important;
-    border-bottom: 1px solid #d0d0d0 !important;
+    font-family: 'Inter', Arial, sans-serif !important;
+    font-size: 12px !important;
+    margin: 20px 0 20px 0 !important;
+    padding: 14px 16px !important;
+    background: #f8f9fa !important;
+    border-radius: 6px !important;
+    border: 1px solid #e9ecef !important;
   }
 
   .meta-label {
     font-weight: 600 !important;
-    color: #444 !important;
+    color: #0d1b2a !important;
     display: inline-block !important;
-    min-width: 100px !important;
+    min-width: 90px !important;
+    font-size: 11px !important;
+    text-transform: uppercase !important;
+    letter-spacing: 0.5px !important;
+  }
+
+  .meta-value {
+    color: #333 !important;
+    font-weight: 500 !important;
   }
 
   table {
     width: 100% !important;
     border-collapse: collapse !important;
-    margin: 0 0 24px 0 !important;
-    font-size: 13px !important;
+    margin: 0 0 20px 0 !important;
+    font-family: 'Inter', Arial, sans-serif !important;
+    font-size: 12px !important;
   }
 
   thead th {
+    font-family: 'Inter', Arial, sans-serif !important;
     text-align: left !important;
-    font-size: 11px !important;
+    font-size: 9.5px !important;
     font-weight: 700 !important;
     text-transform: uppercase !important;
-    color: #444 !important;
-    padding: 8px 6px !important;
-    border-bottom: 2px solid #333 !important;
-    letter-spacing: 0.4px !important;
+    letter-spacing: 1px !important;
+    color: #ffffff !important;
+    background: #0d1b2a !important;
+    padding: 10px 10px !important;
+    border-bottom: none !important;
   }
+
+  thead th:first-child { border-radius: 5px 0 0 0 !important; }
+  thead th:last-child { border-radius: 0 5px 0 0 !important; }
 
   tbody td {
-    padding: 10px 6px !important;
-    border-bottom: 1px solid #eee !important;
+    padding: 11px 10px !important;
+    border-bottom: 1px solid #e9ecef !important;
     vertical-align: top !important;
+    font-weight: 400 !important;
+    color: #333 !important;
   }
 
-  .qty-col { width: 60px !important; text-align: center !important; }
-  .price-col, .total-col { width: 110px !important; text-align: right !important; font-variant-numeric: tabular-nums !important; }
+  tbody tr:nth-child(even) {
+    background: #fafbfc !important;
+  }
+
+  .qty-col { width: 55px !important; text-align: center !important; }
+  .price-col, .total-col { width: 110px !important; text-align: right !important; font-variant-numeric: tabular-nums !important; font-weight: 500 !important; }
 
   .totals {
-    width: 45% !important;
+    width: 50% !important;
     margin-left: auto !important;
-    font-size: 13.5px !important;
+    font-family: 'Inter', Arial, sans-serif !important;
+    font-size: 12.5px !important;
+    margin-top: 8px !important;
   }
 
   .totals div {
     display: flex !important;
     justify-content: space-between !important;
-    padding: 6px 0 !important;
-    border-top: 1px solid #e0e0e0 !important;
+    padding: 8px 0 !important;
+    border-top: 1px solid #e9ecef !important;
+    color: #444 !important;
   }
 
   .grand-total {
-    font-size: 15px !important;
+    font-size: 16px !important;
+    font-weight: 800 !important;
+    padding-top: 14px !important;
+    border-top: 2.5px solid #0d1b2a !important;
+    color: #0d1b2a !important;
+  }
+
+  /* ── FOOTER ── */
+  .receipt-footer {
+    margin-top: 36px !important;
+    padding-top: 0 !important;
+  }
+
+  .footer-divider {
+    border: none !important;
+    border-top: 2.5px solid #0d1b2a !important;
+    margin: 0 auto 20px auto !important;
+    width: 100% !important;
+  }
+
+  .footer-thanks {
+    text-align: center !important;
+    font-family: 'Arial Black', 'Arial Bold', Arial, sans-serif !important;
+    font-size: 16px !important;
     font-weight: 900 !important;
-    padding-top: 12px !important;
-    border-top: 2px solid #000 !important;
+    color: #0d1b2a !important;
+    letter-spacing: 0.5px !important;
+    margin: 0 0 6px 0 !important;
   }
 
-  .thanks, .waybill-thanks {
+  .footer-message {
     text-align: center !important;
-    margin: 40px 0 20px !important;
-    font-size: 14px !important;
-    font-weight: 600 !important;
-    color: #222 !important;
-    letter-spacing: 0.3px !important;
-  }
-
-  .legal, .waybill-legal {
-    text-align: center !important;
+    font-family: 'Inter', Arial, sans-serif !important;
     font-size: 11px !important;
+    font-weight: 400 !important;
     color: #555 !important;
-    line-height: 1.5 !important;
+    line-height: 1.6 !important;
+    margin: 0 0 16px 0 !important;
+  }
+
+  .footer-legal-box {
+    margin: 0 auto !important;
+    max-width: 85% !important;
+    padding: 12px 16px !important;
+    background: #f8f9fa !important;
+    border: 1px solid #e9ecef !important;
+    border-radius: 6px !important;
+  }
+
+  .footer-legal {
+    text-align: center !important;
+    font-family: 'Inter', Arial, sans-serif !important;
+    font-size: 9px !important;
+    font-weight: 400 !important;
+    color: #999 !important;
+    line-height: 1.8 !important;
+    letter-spacing: 0.2px !important;
+    margin: 0 !important;
+  }
+
+  .footer-powered {
+    text-align: center !important;
+    font-family: 'Inter', Arial, sans-serif !important;
+    font-size: 8px !important;
+    font-weight: 600 !important;
+    color: #bbb !important;
+    letter-spacing: 2px !important;
+    text-transform: uppercase !important;
+    margin: 16px 0 0 0 !important;
+  }
+
+  /* ── WATERMARK ── */
+  .receipt-watermark {
+    position: absolute !important;
+    top: 50% !important;
+    left: 50% !important;
+    transform: translate(-50%, -50%) rotate(-30deg) !important;
+    width: 400px !important;
+    height: 400px !important;
+    object-fit: contain !important;
+    opacity: 0.12 !important;
+    pointer-events: none !important;
+    z-index: 9999 !important;
   }
 
   .signature-block {
@@ -201,20 +337,27 @@ function Receipt() {
       maximumFractionDigits: 2,
     });
 
-  // Shared print window function
   const openPrintWindow = (htmlContent) => {
     const win = window.open("", "_blank");
     win.document.write(htmlContent);
     win.document.close();
-    setTimeout(() => win.print(), 500);
+    setTimeout(() => win.print(), 600);
   };
 
-  // Print Receipt (normal invoice with prices)
+  const getLogoHtml = (size = 200) => {
+    const fullUrl = window.location.origin + LOGO_PATH;
+    return `<img src="${fullUrl}" alt="Company Logo" style="display:block; margin:0 auto 8px auto; width:${size}px; height:${size}px; object-fit:contain;" />`;
+  };
+
+  // Watermark HTML for print windows — uses ABSOLUTE URL
+  const getWatermarkHtml = () => {
+    const fullUrl = window.location.origin + LOGO_PATH;
+    return `<img src="${fullUrl}" alt="" class="receipt-watermark" style="position:absolute; top:50%; left:50%; transform:translate(-50%,-50%) rotate(-30deg); width:400px; height:400px; object-fit:contain; opacity:0.12; pointer-events:none; z-index:9999;" />`;
+  };
+
   const handlePrintReceipt = () => {
     if (!receiptRef.current) return;
-
     const content = receiptRef.current.innerHTML;
-
     const html = `
       <html>
         <head>
@@ -222,62 +365,70 @@ function Receipt() {
           <style>${printStyles}</style>
         </head>
         <body>
-          <div class="receipt-container">
+          <div class="receipt-container" style="position:relative; overflow:hidden;">
+            ${getWatermarkHtml()}
             ${content}
           </div>
         </body>
       </html>
     `;
-
     openPrintWindow(html);
   };
 
-  // Print Waybill (delivery note – no prices, signature spaces, driver info)
   const handlePrintWaybill = () => {
     if (!sale) return;
 
     const waybillHeader = `
-<div style="text-align:center; margin-bottom:25px;">
-  <h1 style="font-size:32px; font-weight:900; letter-spacing:2px; text-transform:uppercase; margin:0;">
-    WAYBILL / DELIVERY NOTE
-  </h1>
-  <div style="font-size:14px; margin:8px 0;">
-    AO KOMOLAFE NIGERIA LIMITED<br>
+<div style="text-align:center; margin-bottom:20px; position:relative; z-index:1;">
+  ${getLogoHtml(200)}
+  <div style="font-family:'Arial Black','Arial Bold',Arial,sans-serif; font-size:26px; font-weight:900; letter-spacing:2.5px; text-transform:uppercase; margin:6px 0 2px 0; color:#0d1b2a;">
+    AO KOMOLAFE NIGERIA LIMITED
+  </div>
+  <div style="font-size:9px; font-weight:600; letter-spacing:3px; text-transform:uppercase; color:#555; margin-bottom:4px;">
+    Wholesaler & Manufacturer of Quality Plastic Products
+  </div>
+  <div style="font-size:11px; color:#333; line-height:1.6; margin-bottom:6px;">
     Off Oshogbo Road, Behind Testing Ground, Ilesa, Osun State<br>
-    Phone: 08067229605  •  08054776518
+    Phone: 0806 722 9605  •  0805 477 6518
+  </div>
+  <hr style="border:none; border-top:2.5px solid #0d1b2a; width:80%; margin:8px auto 0 auto;" />
+  <div style="font-family:'Inter',Arial,sans-serif; font-size:10px; font-weight:700; letter-spacing:4px; text-transform:uppercase; color:#666; margin:14px 0 0 0;">
+    WAYBILL / DELIVERY NOTE
   </div>
 </div>
 
-<div style="display:flex; justify-content:space-between; font-size:13px; margin:20px 0; padding-bottom:18px; border-bottom:1px solid #000;">
+<div style="display:flex; justify-content:space-between; font-family:'Inter',Arial,sans-serif; font-size:12px; margin:20px 0; padding:14px 16px; background:#f8f9fa; border-radius:6px; border:1px solid #e9ecef; position:relative; z-index:1;">
   <div>
-    <strong>Waybill No:</strong> ${sale.invoiceNumber}<br>
-    <strong>Date:</strong> ${printDate}<br>
-    <strong>Customer:</strong> ${getCustomerName()}<br>
-    <strong>Delivery Address:</strong> ${getCustomerAddress() || "—"}
+    <div style="font-size:9px; font-weight:700; text-transform:uppercase; letter-spacing:0.5px; color:#0d1b2a; margin-bottom:6px;">Waybill Details</div>
+    <div><strong>Waybill No:</strong> ${sale.invoiceNumber}</div>
+    <div><strong>Date:</strong> ${printDate}</div>
+    <div><strong>Customer:</strong> ${getCustomerName()}</div>
+    <div><strong>Delivery Address:</strong> ${getCustomerAddress() || "—"}</div>
   </div>
   <div style="text-align:right;">
-    <strong>Driver Name:</strong> ________________________<br>
-    <strong>Vehicle No:</strong> ________________________<br>
-    <strong>Driver Phone:</strong> ________________________
+    <div style="font-size:9px; font-weight:700; text-transform:uppercase; letter-spacing:0.5px; color:#0d1b2a; margin-bottom:6px;">Driver Info</div>
+    <div><strong>Driver Name:</strong> ________________________</div>
+    <div><strong>Vehicle No:</strong> ________________________</div>
+    <div><strong>Driver Phone:</strong> ________________________</div>
   </div>
 </div>
     `;
 
     const waybillItems = sale.items.map((item, i) => `
 <tr>
-  <td style="text-align:center; padding:8px 6px; border-bottom:1px solid #ddd;">${i+1}</td>
-  <td style="padding:8px 6px; border-bottom:1px solid #ddd;">${item.productName || item.description || "—"}</td>
-  <td style="text-align:center; padding:8px 6px; border-bottom:1px solid #ddd;">${item.quantity}</td>
+  <td style="text-align:center; padding:11px 10px; border-bottom:1px solid #e9ecef;">${i + 1}</td>
+  <td style="padding:11px 10px; border-bottom:1px solid #e9ecef; font-weight:500;">${item.productName || item.description || "—"}</td>
+  <td style="text-align:center; padding:11px 10px; border-bottom:1px solid #e9ecef;">${item.quantity}</td>
 </tr>
     `).join('');
 
     const waybillTable = `
-<table style="width:100%; border-collapse:collapse; margin:20px 0; font-size:13px;">
+<table style="width:100%; border-collapse:collapse; margin:20px 0; font-family:'Inter',Arial,sans-serif; font-size:12px; position:relative; z-index:1;">
   <thead>
-    <tr style="background:#f8f8f8;">
-      <th style="padding:10px; border-bottom:2px solid #333; width:50px; text-align:center;">S/N</th>
-      <th style="padding:10px; border-bottom:2px solid #333; text-align:left;">ITEM DESCRIPTION</th>
-      <th style="padding:10px; border-bottom:2px solid #333; width:100px; text-align:center;">QUANTITY</th>
+    <tr>
+      <th style="font-size:9.5px; font-weight:700; text-transform:uppercase; letter-spacing:1px; color:#fff; background:#0d1b2a; padding:10px; width:50px; text-align:center; border-radius:5px 0 0 0;">S/N</th>
+      <th style="font-size:9.5px; font-weight:700; text-transform:uppercase; letter-spacing:1px; color:#fff; background:#0d1b2a; padding:10px; text-align:left;">ITEM DESCRIPTION</th>
+      <th style="font-size:9.5px; font-weight:700; text-transform:uppercase; letter-spacing:1px; color:#fff; background:#0d1b2a; padding:10px; width:100px; text-align:center; border-radius:0 5px 0 0;">QUANTITY</th>
     </tr>
   </thead>
   <tbody>${waybillItems}</tbody>
@@ -285,8 +436,15 @@ function Receipt() {
     `;
 
     const waybillFooter = `
-<div style="margin-top:60px;">
-  <div style="display:flex; justify-content:space-between; font-size:12px;">
+<div style="margin-top:36px; font-family:'Inter',Arial,sans-serif; position:relative; z-index:1;">
+  <hr style="border:none; border-top:2.5px solid #0d1b2a; margin:0 auto 20px auto; width:100%;" />
+  <div style="text-align:center; font-family:'Arial Black','Arial Bold',Arial,sans-serif; font-size:16px; font-weight:900; color:#0d1b2a; margin:0 0 6px 0;">
+    Thank you for your business!
+  </div>
+  <div style="text-align:center; font-size:11px; color:#555; margin:0 0 16px 0;">
+    Goods received in good condition. No liability after delivery.
+  </div>
+  <div style="display:flex; justify-content:space-between; font-size:12px; margin-top:60px;">
     <div style="width:45%; text-align:center;">
       <div style="border-top:1px solid #000; padding-top:35px;">Received By (Name & Signature)</div>
       <div style="margin-top:8px;">Date: ________________</div>
@@ -296,13 +454,13 @@ function Receipt() {
       <div style="margin-top:8px;">Company Stamp</div>
     </div>
   </div>
-
-  <div style="text-align:center; margin-top:50px; font-size:14px; font-weight:600;">
-    Goods received in good condition. No liability after delivery.
+  <div style="text-align:center; margin:20px auto 0 auto; max-width:85%; padding:12px 16px; background:#f8f9fa; border:1px solid #e9ecef; border-radius:6px;">
+    <div style="font-size:9px; color:#999; line-height:1.8;">
+      This is a computer-generated waybill — No signature required • E&OE
+    </div>
   </div>
-
-  <div style="text-align:center; margin-top:30px; font-size:14px; font-weight:600;">
-    Thank you for your business
+  <div style="text-align:center; font-size:8px; font-weight:600; color:#bbb; letter-spacing:2px; text-transform:uppercase; margin:16px 0 0 0;">
+    Powered by ChykeTech IT Solution
   </div>
 </div>
     `;
@@ -314,7 +472,8 @@ function Receipt() {
   <style>${printStyles}</style>
 </head>
 <body>
-  <div class="receipt-container">
+  <div class="receipt-container" style="position:relative; overflow:hidden;">
+    ${getWatermarkHtml()}
     ${waybillHeader}
     ${waybillTable}
     ${waybillFooter}
@@ -329,7 +488,7 @@ function Receipt() {
   useEffect(() => {
     if (sale && receiptRef.current && !printedRef.current) {
       printedRef.current = true;
-      setTimeout(handlePrintReceipt, 700); // Auto-print receipt by default
+      setTimeout(handlePrintReceipt, 700);
     }
   }, [sale]);
 
@@ -358,7 +517,7 @@ function Receipt() {
   return (
     <div className="min-h-screen bg-slate-900 text-slate-100 flex flex-col">
       {/* Header / Controls */}
-      <header className="bg-slate-800 border-b border-slate-700 shadow-lg sticky top-0 z-10">
+      <header className="bg-slate-800 border-b border-slate-700 shadow-lg sticky top-0 z-10 no-print">
         <div className="max-w-5xl mx-auto px-6 py-4 flex flex-col md:flex-row items-center justify-between gap-4">
           <div className="flex items-center gap-3">
             <div className="text-xl font-bold text-indigo-400">AO Komolafe</div>
@@ -463,66 +622,96 @@ function Receipt() {
         )}
 
         {sale && (
-          <div className="bg-slate-900 text-slate-100 rounded-xl shadow-2xl overflow-hidden ring-1 ring-slate-700/70 border border-slate-700">
-            <div className="p-10 md:p-12" ref={receiptRef}>
-              {/* Company Header */}
-              <div className="text-center mb-10">
+          <div className="bg-white text-gray-900 rounded-xl shadow-2xl overflow-hidden ring-1 ring-gray-200 border border-gray-200" style={{ position: "relative" }}>
+            <div className="p-8 md:p-10" ref={receiptRef} style={{ position: "relative", overflow: "hidden" }}>
+
+              {/* ── Watermark — MUST use absolute URL for print window ── */}
+              <img
+                src={window.location.origin + LOGO_PATH}
+                alt=""
+                className="receipt-watermark"
+                style={{
+                  position: "absolute",
+                  top: "50%",
+                  left: "50%",
+                  transform: "translate(-50%, -50%) rotate(-30deg)",
+                  width: 400,
+                  height: 400,
+                  objectFit: "contain",
+                  opacity: 0.12,
+                  pointerEvents: "none",
+                  zIndex: 9999,
+                }}
+              />
+
+              {/* ── Company Header ── */}
+              <div className="text-center mb-2" style={{ position: "relative", zIndex: 1 }}>
+                <img
+                  src={LOGO_PATH}
+                  alt="Company Logo"
+                  className="company-logo"
+                  style={{ width: 200, height: 200, objectFit: "contain", display: "block", margin: "0 auto 8px auto" }}
+                />
                 <h1 className="company-name">AO KOMOLAFE NIGERIA LIMITED</h1>
+                <div className="company-tagline">Wholesaler & Manufacturer of Quality Plastic Products</div>
                 <div className="company-info">
                   Off Oshogbo Road, Behind Testing Ground, Ilesa, Osun State<br />
                   0806 722 9605  •  0805 477 6518
                 </div>
+                <hr className="header-divider" />
+                <div className="invoice-title">INVOICE / RECEIPT</div>
               </div>
 
-              {/* Meta */}
-              <div className="meta-section">
+              {/* ── Meta ── */}
+              <div className="meta-section" style={{ position: "relative", zIndex: 1 }}>
                 <div>
-                  <div><span className="meta-label">Billed To:</span> {getCustomerName()}</div>
+                  <div><span className="meta-label">Billed To</span></div>
+                  <div className="meta-value" style={{ fontSize: 14, fontWeight: 600, marginTop: 4 }}>{getCustomerName()}</div>
                   {getCustomerAddress() && (
-                    <div className="mt-1 text-sm text-slate-400">{getCustomerAddress()}</div>
+                    <div className="meta-value" style={{ fontSize: 12, marginTop: 2, color: "#666" }}>{getCustomerAddress()}</div>
                   )}
                 </div>
-
-                <div className="text-right">
-                  <div><span className="meta-label">Invoice No:</span> {sale.invoiceNumber}</div>
-                  <div className="mt-1"><span className="meta-label">Date:</span> {printDate}</div>
-                  <div className="mt-1"><span className="meta-label">Payment:</span> {paymentMethod}</div>
+                <div style={{ textAlign: "right" }}>
+                  <div><span className="meta-label">Invoice No</span></div>
+                  <div className="meta-value" style={{ fontSize: 14, fontWeight: 600, marginTop: 4 }}>{sale.invoiceNumber}</div>
+                  <div style={{ marginTop: 4 }}><span className="meta-label">Date</span> <span className="meta-value">{printDate}</span></div>
+                  <div style={{ marginTop: 4 }}><span className="meta-label">Payment</span> <span className="meta-value">{paymentMethod}</span></div>
                 </div>
               </div>
 
-              {/* Items Table */}
-              <table>
+              {/* ── Items Table ── */}
+              <table style={{ position: "relative", zIndex: 1 }}>
                 <thead>
                   <tr>
-                    <th>#</th>
+                    <th style={{ borderRadius: "5px 0 0 0", textAlign: "center", width: 40 }}>#</th>
                     <th>DESCRIPTION</th>
-                    <th className="qty-col">QTY</th>
-                    <th className="price-col">UNIT PRICE</th>
-                    <th className="total-col">AMOUNT</th>
+                    <th className="qty-col" style={{ textAlign: "center" }}>QTY</th>
+                    <th className="price-col" style={{ textAlign: "right" }}>UNIT PRICE</th>
+                    <th className="total-col" style={{ textAlign: "right", borderRadius: "0 5px 0 0" }}>AMOUNT</th>
                   </tr>
                 </thead>
                 <tbody>
                   {sale.items.map((item, i) => (
                     <tr key={i}>
-                      <td className="text-center text-slate-500">{i + 1}</td>
-                      <td className="font-medium text-slate-100">
+                      <td style={{ textAlign: "center", color: "#888", fontSize: 11 }}>{i + 1}</td>
+                      <td style={{ fontWeight: 500 }}>
                         {item.productName || "—"}
                         {item.type === "wholesale" && (
-                          <span className="ml-2 text-xs font-medium text-indigo-400 bg-indigo-900/30 px-1.5 py-0.5 rounded">
+                          <span style={{ marginLeft: 8, fontSize: 10, fontWeight: 600, color: "#6366f1", background: "#eef2ff", padding: "2px 6px", borderRadius: 4 }}>
                             Wholesale ({item.packCount || "?"} pk)
                           </span>
                         )}
                       </td>
-                      <td className="qty-col text-center text-slate-300">{item.quantity}</td>
+                      <td className="qty-col" style={{ textAlign: "center" }}>{item.quantity}</td>
                       <td className="price-col">{formatNaira(item.price)}</td>
-                      <td className="total-col font-medium">{formatNaira(item.subtotal || item.price * item.quantity)}</td>
+                      <td className="total-col" style={{ fontWeight: 600 }}>{formatNaira(item.subtotal || item.price * item.quantity)}</td>
                     </tr>
                   ))}
                 </tbody>
               </table>
 
-              {/* Totals */}
-              <div className="totals">
+              {/* ── Totals ── */}
+              <div className="totals" style={{ position: "relative", zIndex: 1 }}>
                 <div>
                   <span>Subtotal</span>
                   <span>{formatNaira(subtotal)}</span>
@@ -533,20 +722,26 @@ function Receipt() {
                 </div>
                 <div>
                   <span>Printed By</span>
-                  <span>{printedBy || "—"}</span>
+                  <span style={{ fontWeight: 500 }}>{printedBy || "—"}</span>
                 </div>
               </div>
 
-              {/* Thank You */}
-              <div className="thanks">
-                Thank you for your patronage — Come again!
+              {/* ── Redesigned Footer ── */}
+              <div className="receipt-footer" style={{ position: "relative", zIndex: 1 }}>
+                <hr className="footer-divider" />
+                <div className="footer-thanks">Thank you for your patronage!</div>
+                <div className="footer-message">
+                  We appreciate your trust in our products. For enquiries or complaints, please contact us.
+                </div>
+                <div className="footer-legal-box">
+                  <div className="footer-legal">
+                    Goods once sold are not returnable or exchangeable • E&OE<br />
+                    This is a computer-generated receipt — No signature required
+                  </div>
+                </div>
+                <div className="footer-powered">Powered by ChykeTech IT Solution</div>
               </div>
 
-              {/* Legal */}
-              <div className="legal">
-                Goods once sold are not returnable or exchangeable • E&OE<br />
-                This is a computer-generated receipt — No signature required
-              </div>
             </div>
           </div>
         )}
