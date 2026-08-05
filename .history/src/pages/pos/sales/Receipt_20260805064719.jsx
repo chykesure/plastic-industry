@@ -389,7 +389,7 @@ function Receipt() {
   ${getLogoHtml(110)}
   <div>
     <div style="font-family:'Arial Black','Arial Bold',Arial,sans-serif; font-size:20px; font-weight:900; letter-spacing:2px; text-transform:uppercase; margin:0 0 2px 0; color:#0d1b2a; text-align:left;">
-      EO KOMOLAFE NIGERIA LIMITED
+      AO KOMOLAFE NIGERIA LIMITED
     </div>
     <div style="font-size:9px; font-weight:600; letter-spacing:3px; text-transform:uppercase; color:#555; margin-bottom:4px; text-align:left;">
       Wholesaler & Manufacturer of Quality Plastic Products
